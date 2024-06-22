@@ -22,5 +22,5 @@ Escribiendo el apunte para el ramo de Economía Aplicada junto al profesor Ósca
 
 ### Miembro de FenVID
 Canal con más de 5 mil subscriptores con el objetivo de apoyar mediante videos explicativos a estudiantes de carreras relacionadas con la economía y negocios. 
-- Video de Hotelling [Video](https://youtu.be/p7UcJlSK_qY?si=CecJ5Q1rEyIp3g2C), [Recurso](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fscl%2Ffi%2Fzt9xbmveusd8vti8v6kd3%2FEquilibrio-General-con-Producci-n.pdf%3Frlkey%3Dq56vj7lyr2bczduk0v5o26b4b%26dl%3D0&sa=D)
-- Video de Equilibrio General con Producción [Video](https://youtu.be/NgxHDSLMPbo?si=gaVw4cDE1Kq89EQ_), [Recurso](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fscl%2Ffi%2Fsms2xho2gynlmy3l2m3p3%2FModelo-de-Hotelling%3Frlkey%3Dmonyk0k6e9l266jmnuvu0jwkf%26dl%3D0&sa=D)
+- Video de Hotelling [Video](https://youtu.be/p7UcJlSK_qY?si=CecJ5Q1rEyIp3g2C), [Recurso](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fscl%2Ffi%2Fsms2xho2gynlmy3l2m3p3%2FModelo-de-Hotelling%3Frlkey%3Dmonyk0k6e9l266jmnuvu0jwkf%26dl%3D0&sa=D)
+- Video de Equilibrio General con Producción [Video](https://youtu.be/NgxHDSLMPbo?si=gaVw4cDE1Kq89EQ_), [Recurso](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fscl%2Ffi%2Fzt9xbmveusd8vti8v6kd3%2FEquilibrio-General-con-Producci-n.pdf%3Frlkey%3Dq56vj7lyr2bczduk0v5o26b4b%26dl%3D0&sa=D)
