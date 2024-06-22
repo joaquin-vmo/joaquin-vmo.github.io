@@ -1,4 +1,4 @@
-Enfocado en avanzar en mi carrera académica motivado por la investigación y la docencia. Mis áreas de interés incluyen la Organización Industrial, la Economía Laboral y la Economía Política.
+Enfocado en avanzar en mi carrera académica motivado por la investigación y la docencia. Mis áreas de interés incluyen la Organización Industrial, la Economía Laboral y la Economía Política. [CV](https://drive.google.com/file/d/1e6TAE7VJHLo9PKczAqo9CXSLssyN6GeN/view?usp=share_link)
 
 #### Software: R, Python, Stata, Excel, SQL
 
@@ -14,13 +14,13 @@ Enfocado en avanzar en mi carrera académica motivado por la investigación y la
 - Economía Política prof. Ó. Landerretche
 
 ### Tutor de apoyo académico
-Dictar clases complementarias semanalmente
+Dictar clases complementarias semanalmente. 
 - Tutor de Introducción a la Economía
 
 ### Apunte Economía Política FEN UChile
-Escribiendo el apunte para el ramo de Economía Aplicada junto al profesor Óscar Landerretche
+Escribiendo el apunte para el ramo de Economía Aplicada junto al profesor Óscar Landerretche. [Link](https://drive.google.com/file/d/1Zdm1InXnEHiFG0Fo-xf1yS11sT_vUMOx/view?usp=sharing)
 
 ### Miembro de FenVID
 Canal con más de 5 mil subscriptores con el objetivo de apoyar mediante videos explicativos a estudiantes de carreras relacionadas con la economía y negocios. 
-- Video de Hotelling [Link](https://youtu.be/p7UcJlSK_qY?si=CecJ5Q1rEyIp3g2C)
-- Video de Equilibrio General con Producción [Link](https://youtu.be/NgxHDSLMPbo?si=gaVw4cDE1Kq89EQ_)
+- Video de Hotelling [Video](https://youtu.be/p7UcJlSK_qY?si=CecJ5Q1rEyIp3g2C), [Recurso](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fscl%2Ffi%2Fzt9xbmveusd8vti8v6kd3%2FEquilibrio-General-con-Producci-n.pdf%3Frlkey%3Dq56vj7lyr2bczduk0v5o26b4b%26dl%3D0&sa=D)
+- Video de Equilibrio General con Producción [Video](https://youtu.be/NgxHDSLMPbo?si=gaVw4cDE1Kq89EQ_), [Recurso](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fscl%2Ffi%2Fsms2xho2gynlmy3l2m3p3%2FModelo-de-Hotelling%3Frlkey%3Dmonyk0k6e9l266jmnuvu0jwkf%26dl%3D0&sa=D)
