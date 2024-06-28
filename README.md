@@ -3,19 +3,21 @@ Enfocado en avanzar en mi carrera académica motivado por la investigación y la
 #### Software: R, Python, Stata, Excel, SQL
 
 ## Experiencia Investigando
+Mi experiencia en proyectos de investigación se centran en mercado laboral.
 - Asistente de investigación en Núcleo Milenio LM2C2 para el estudio del desajuste laboral.
 - Working paper: Efecto heterogéneo del COVID-19 sobre el desajuste laboral (Con G. Gónzalez) [Link](https://drive.google.com/file/d/1D6_w-8GlvZBQXEskPFQFcdcIt8ngx4ss/view?usp=sharing)
 - Revisión de literatura: Midiendo el desajuste laboral en la práctica [Link](https://drive.google.com/file/d/1bl-FirA7blKewJaxllg9GCRgCwHU3hKS/view?usp=sharing)
 
 ## Experiencia Enseñando
 ### Ayudante de Cátedra
-- Microeconomía II (Organización Industrial) prof. P. Bordón
-- Macroeconomía II (Política Monetaria) prof. J. Hermann
-- Economía Política prof. Ó. Landerretche
+Preparar material, dictar ayudantías y corregir evaluaciones.
+- Organización Industrial (Microeconomía II) prof. P. Bordón
+- Teoría Monetaria (Macroeconomía II) prof. J. Hermann
+- Teoría de juegos y Economía Política (Economía Aplicada) prof. Ó. Landerretche
 
 ### Tutor de apoyo académico
-Dictar clases complementarias semanalmente. 
-- Tutor de Introducción a la Economía
+Dictar clases complementarias semanalmente. Hasta ahora he sido tutor de:
+- Introducción a la Economía
 
 ### Apunte Economía Política FEN UChile
 Escribiendo el apunte para el ramo de Economía Aplicada junto al profesor Óscar Landerretche. [Link](https://drive.google.com/file/d/1Zdm1InXnEHiFG0Fo-xf1yS11sT_vUMOx/view?usp=sharing)
