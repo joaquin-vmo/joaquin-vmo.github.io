@@ -13,14 +13,17 @@ Mi experiencia en proyectos de investigación se centran en mercado laboral.
 Preparar material, dictar ayudantías y corregir evaluaciones.
 - Organización Industrial (Microeconomía II) prof. P. Bordón
 - Teoría Monetaria (Macroeconomía II) prof. J. Hermann
-- Teoría de juegos y Economía Política (Economía Aplicada) prof. Ó. Landerretche
+- Teoría de Juegos y Economía Política (Economía Aplicada) prof. Ó. Landerretche
 
 ### Tutor de apoyo académico
 Dictar clases complementarias semanalmente. Hasta ahora he sido tutor de:
 - Introducción a la Economía
 
 ### Apunte Economía Política FEN UChile
-Escribiendo el apunte para el ramo de Economía Aplicada junto al profesor Óscar Landerretche. [Link](https://drive.google.com/file/d/1Zdm1InXnEHiFG0Fo-xf1yS11sT_vUMOx/view?usp=sharing)
+Escribiendo el apunte para el ramo de Economía Aplicada junto al profesor Óscar Landerretche. Algunos de los borradores para los distintos capítulos:
+- [El Problema de lo Privado y lo Público](https://drive.google.com/file/d/1aXbH1xQRkvrReWK7ZtU3Vq2lsn2LnVTC/view?usp=sharing): Equilibrio General y Externalidades.
+- [El Problema del tiempo y del riesgo](https://drive.google.com/file/d/1dwklCvntSaiwPb76ITg9tiqVT4nx9nH2/view?usp=share_link): Consumo intertemporal y Cartera de Markowitz.
+- [Bases para la Organización Industrial](https://drive.google.com/file/d/1Dqti7p3MD4Ng24FkOGrUbeAa0R61weNU/view?usp=share_link): Teoría de Juegos, Competencia imperfecta y Colusión.
 
 ### Miembro de FenVID
 Canal con más de 5 mil subscriptores con el objetivo de apoyar mediante videos explicativos a estudiantes de carreras relacionadas con la economía y negocios. 
