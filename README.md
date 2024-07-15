@@ -4,7 +4,7 @@ Estoy enfocado en avanzar en mi carrera académica motivado por la investigació
 
 ## Experiencia Investigando
 Mi experiencia en proyectos de investigación se centran en mercado laboral.
-- Asistente de investigación en Núcleo Milenio LM2C2 para el estudio del desajuste laboral. Limpieza y creación de bases en base a distintas fuentes, armado de bases de panel (EPS), revisión de literatura. 
+- Asistente de investigación en Núcleo Milenio LM2C2 para el estudio del desajuste laboral. Limpieza y creación de bases desde distintas fuentes, armado de bases de panel (EPS), revisión de literatura. 
 - Working paper: Efecto heterogéneo del COVID-19 sobre el desajuste laboral (Con G. Gónzalez) [Link](https://drive.google.com/file/d/1D6_w-8GlvZBQXEskPFQFcdcIt8ngx4ss/view?usp=sharing)
 - Revisión de literatura: Midiendo el desajuste laboral en la práctica [Link](https://drive.google.com/file/d/1bl-FirA7blKewJaxllg9GCRgCwHU3hKS/view?usp=sharing)
 
