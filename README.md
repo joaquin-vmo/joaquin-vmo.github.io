@@ -24,7 +24,7 @@ Dictar clases complementarias semanalmente. Hasta ahora he sido tutor de:
 He estado escribiendo apuntes para el ramo de Economía Aplicada junto al profesor Óscar Landerretche. Algunos de los borradores para distintos capítulos que he escrito:
 - [El Problema de lo Privado y lo Público](https://drive.google.com/file/d/1qSG7litPMbgApps3xh6Wg8E2oBEdpS2Q/view?usp=sharing): Equilibrio General y Externalidades.
 - [El Problema del tiempo y del riesgo](https://drive.google.com/file/d/1dwklCvntSaiwPb76ITg9tiqVT4nx9nH2/view?usp=share_link): Consumo intertemporal y Cartera de Markowitz.
-- [Bases para la Organización Industrial](https://drive.google.com/file/d/1Dqti7p3MD4Ng24FkOGrUbeAa0R61weNU/view?usp=share_link): Teoría de Juegos, Competencia imperfecta y Colusión.
+- [Bases para la Organización Industrial](https://drive.google.com/file/d/12TE_iCzVUdqEbFUjoCshjiJ8Eyl3XI7b/view?usp=share_link): Teoría de Juegos, Competencia imperfecta y Colusión.
 
 ### Miembro de FenVID
 Canal con más de 5 mil subscriptores con el objetivo de apoyar mediante videos explicativos a estudiantes de carreras relacionadas con la economía y negocios. He creado el material y editado mis videos: 
