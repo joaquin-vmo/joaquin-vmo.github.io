@@ -13,7 +13,7 @@ Mi experiencia en proyectos de investigación se centran en mercado laboral.
 Preparar material, dictar ayudantías y corregir evaluaciones.
 - Organización Industrial (Microeconomía II) prof. P. Bordón - Otoño y Primavera 2024
 - Teoría Monetaria (Macroeconomía II) prof. J. Hermann - Otoño 2024
-- Teoría de Juegos y Economía Política (Economía Aplicada) prof. Ó. Landerretche Primavera 2023 y Primavera 2024
+- Teoría de Juegos y Economía Política (Economía Aplicada) prof. Ó. Landerretche - Primavera 2023 y Primavera 2024
 
 ### Tutor de apoyo académico
 Dictar clases complementarias semanalmente. Hasta ahora he sido tutor de:
