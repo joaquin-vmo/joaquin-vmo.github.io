@@ -11,17 +11,17 @@ Mi experiencia en proyectos de investigación se centran en mercado laboral.
 ## Experiencia Enseñando
 ### Ayudante de Cátedra
 Preparar material, dictar ayudantías y corregir evaluaciones.
-- Organización Industrial (Microeconomía II) prof. P. Bordón
-- Teoría Monetaria (Macroeconomía II) prof. J. Hermann
-- Teoría de Juegos y Economía Política (Economía Aplicada) prof. Ó. Landerretche
+- Organización Industrial (Microeconomía II) prof. P. Bordón - Otoño y Primavera 2024
+- Teoría Monetaria (Macroeconomía II) prof. J. Hermann - Otoño 2024
+- Teoría de Juegos y Economía Política (Economía Aplicada) prof. Ó. Landerretche Primavera 2023 y Primavera 2024
 
 ### Tutor de apoyo académico
 Dictar clases complementarias semanalmente. Hasta ahora he sido tutor de:
-- Introducción a la Economía
-
+- Introducción a la Economía (Otoño, 2024)
+- Introducción a la Microeconomía (Primavera, 2024)
 ### Apunte Microeconomía: Teoría de Juegos y Economía Política FEN UChile
 He estado escribiendo apuntes para el ramo de Economía Aplicada junto al profesor Óscar Landerretche. Algunos de los borradores para distintos capítulos que he escrito:
-- [El Problema de lo Privado y lo Público](https://drive.google.com/file/d/1aXbH1xQRkvrReWK7ZtU3Vq2lsn2LnVTC/view?usp=sharing): Equilibrio General y Externalidades.
+- [El Problema de lo Privado y lo Público](https://drive.google.com/file/d/1qSG7litPMbgApps3xh6Wg8E2oBEdpS2Q/view?usp=sharing): Equilibrio General y Externalidades.
 - [El Problema del tiempo y del riesgo](https://drive.google.com/file/d/1dwklCvntSaiwPb76ITg9tiqVT4nx9nH2/view?usp=share_link): Consumo intertemporal y Cartera de Markowitz.
 - [Bases para la Organización Industrial](https://drive.google.com/file/d/1Dqti7p3MD4Ng24FkOGrUbeAa0R61weNU/view?usp=share_link): Teoría de Juegos, Competencia imperfecta y Colusión.
 
