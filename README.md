@@ -19,6 +19,7 @@ Preparar material, dictar ayudantías y corregir evaluaciones.
 Dictar clases complementarias semanalmente. Hasta ahora he sido tutor de:
 - Introducción a la Economía (Otoño, 2024)
 - Introducción a la Microeconomía (Primavera, 2024)
+
 ### Apunte Microeconomía: Teoría de Juegos y Economía Política FEN UChile
 He estado escribiendo apuntes para el ramo de Economía Aplicada junto al profesor Óscar Landerretche. Algunos de los borradores para distintos capítulos que he escrito:
 - [El Problema de lo Privado y lo Público](https://drive.google.com/file/d/1qSG7litPMbgApps3xh6Wg8E2oBEdpS2Q/view?usp=sharing): Equilibrio General y Externalidades.
