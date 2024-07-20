@@ -22,9 +22,9 @@ Dictar clases complementarias semanalmente. Hasta ahora he sido tutor de:
 
 ### Apunte Microeconomía: Teoría de Juegos y Economía Política FEN UChile
 He estado escribiendo apuntes para el ramo de Economía Aplicada junto al profesor Óscar Landerretche. Algunos de los borradores para distintos capítulos que he escrito:
-- [El Problema de lo Privado y lo Público](https://drive.google.com/file/d/1qSG7litPMbgApps3xh6Wg8E2oBEdpS2Q/view?usp=sharing): Equilibrio General y Externalidades.
-- [El Problema del tiempo y del riesgo](https://drive.google.com/file/d/1dwklCvntSaiwPb76ITg9tiqVT4nx9nH2/view?usp=share_link): Consumo intertemporal y Cartera de Markowitz.
-- [Bases para la Organización Industrial](https://drive.google.com/file/d/1RzAVmewzf7UsY4Zq4kz8vZbv48XZDNRd/view?usp=share_link): Teoría de Juegos, Competencia imperfecta y Colusión.
+- [El Problema de lo Privado y lo Público](https://github.com/joamartine/Apunte-MICROECONOMIA-como-una-ecopol/blob/a35d7bb0da87cab5971a6a77ce3b93ab1b959122/PrivadoPublico/PrivadoPublico.pdf): Equilibrio General y Externalidades.
+- [El Problema del tiempo y del riesgo](https://github.com/joamartine/Apunte-MICROECONOMIA-como-una-ecopol/blob/a35d7bb0da87cab5971a6a77ce3b93ab1b959122/TiempoRiesgo/TiempoRiesgo.pdf): Consumo intertemporal y Cartera de Markowitz.
+- [Bases para la Organización Industrial](https://github.com/joamartine/Apunte-MICROECONOMIA-como-una-ecopol/blob/a35d7bb0da87cab5971a6a77ce3b93ab1b959122/I-O/I-O.pdf): Teoría de Juegos, Competencia imperfecta y Colusión.
 
 ### Miembro de FenVID
 Canal con más de 5 mil subscriptores con el objetivo de apoyar mediante videos explicativos a estudiantes de carreras relacionadas con la economía y negocios. He creado el material y editado mis videos: 
