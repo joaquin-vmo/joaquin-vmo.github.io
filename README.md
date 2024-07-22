@@ -1,4 +1,4 @@
-Estoy enfocado en avanzar en mi carrera académica motivado por la investigación y la docencia. Mis áreas de interés incluyen la Organización Industrial, la Economía Laboral y la Economía Política. [CV](https://drive.google.com/file/d/1e6TAE7VJHLo9PKczAqo9CXSLssyN6GeN/view?usp=share_link)
+Estoy enfocado en avanzar en mi carrera académica motivado por la investigación y la docencia. Mis áreas de interés incluyen la Organización Industrial, la Economía Laboral y la Economía Política. [CV](https://drive.google.com/file/d/17lG9-EY1PS8OXYjcHJf3zbSXSkjRujyi/view?usp=share_link)
 
 #### Software: R, Python, Stata, Excel, SQL
 
