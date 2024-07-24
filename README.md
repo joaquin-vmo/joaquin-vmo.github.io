@@ -16,9 +16,7 @@ Preparar material, dictar ayudantías y corregir evaluaciones.
 - Teoría de Juegos y Economía Política (Economía Aplicada) prof. Ó. Landerretche - Primavera 2023 y Primavera 2024
 
 ### Tutor de apoyo académico
-Dictar clases complementarias semanalmente. Hasta ahora he sido tutor de:
-- Introducción a la Economía (Otoño, 2024)
-- Introducción a la Microeconomía (Primavera, 2024)
+Hago clases semanales como parte del programa de apoyo académico para el ramo de Introducción a la Economía. Este año (2024) tengo 3 cursos a cargo.
 
 ### Apunte Microeconomía: Teoría de Juegos y Economía Política FEN UChile
 He estado escribiendo apuntes para el ramo de Economía Aplicada junto al profesor Óscar Landerretche. Algunos de los borradores para distintos capítulos que he escrito:
