@@ -13,7 +13,8 @@ Mi experiencia en proyectos de investigación se centran en mercado laboral.
 Preparar material, dictar ayudantías y corregir evaluaciones.
 - Organización Industrial (Microeconomía II) prof. P. Bordón - Otoño y Primavera 2024
 - Teoría Monetaria (Macroeconomía II) prof. J. Hermann - Otoño 2024
-- Teoría de Juegos y Economía Política (Economía Aplicada) prof. Ó. Landerretche - Primavera 2023 y Primavera 2024
+- Economía Política (Economía Aplicada) prof. Ó. Landerretche - Primavera 2023 y Primavera 2024
+- Introducción a la Macroeconomía, prof. E. Andreasen & H. Martínez - Primavera 2024
 
 ### Tutor de apoyo académico
 Hago clases semanales como parte del programa de apoyo académico para el ramo de Introducción a la Economía. Este año (2024) tengo 3 cursos a cargo.
