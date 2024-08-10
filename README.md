@@ -1,4 +1,4 @@
-Estoy enfocado en avanzar en mi carrera académica motivado por la investigación y la docencia. Mis áreas de interés incluyen la Organización Industrial, la Economía Laboral y la Economía Política. [CV](https://drive.google.com/file/d/17lG9-EY1PS8OXYjcHJf3zbSXSkjRujyi/view?usp=share_link)
+Estoy enfocado en avanzar en mi carrera académica motivado por la investigación y la docencia. Mis áreas de interés incluyen la Organización Industrial, la Economía Laboral y la Economía Política. [CV](https://drive.google.com/file/d/1KGaEr7f9D3RrYFbx0QDjCWEJj49EZVVy/view?usp=share_link)
 
 #### Software: R, Python, Stata, Excel, SQL
 
@@ -10,14 +10,15 @@ Mi experiencia en proyectos de investigación se centran en mercado laboral.
 
 ## Experiencia Enseñando
 ### Ayudante de Cátedra
-Preparar material, dictar ayudantías y corregir evaluaciones.
-- Organización Industrial (Microeconomía II) prof. P. Bordón - Otoño y Primavera 2024
-- Teoría Monetaria (Macroeconomía II) prof. J. Hermann - Otoño 2024
-- Economía Política (Economía Aplicada) prof. Ó. Landerretche - Primavera 2023 y Primavera 2024
-- Introducción a la Macroeconomía, prof. E. Andreasen & H. Martínez - Primavera 2024
+Preparar material, dictar ayudantías y corregir evaluaciones. Pregrado FEN UChile
+- Organización Industrial prof. Paola Bordón - Otoño y Primavera 2024
+- Teoría Monetaria prof. Jorge Hermann - Otoño 2024
+- Economía Política prof. Óscar Landerretche - Primavera 2023 y Primavera 2024
+- Introducción a la Macroeconomía, prof. Eugenia Andreasen & Humberto Martínez - Primavera 2024
 
-### Tutor de apoyo académico
+### Tutor de apoyo académico FEN UChile
 Hago clases semanales como parte del programa de apoyo académico para el ramo de Introducción a la Economía. Este año (2024) tengo 3 cursos a cargo.
+- [Clases](https://drive.google.com/drive/folders/1A1hqpK8FmTNtjQn0UIHzP9Vr9XtNE__D?usp=share_link)
 
 ### Apunte Microeconomía: Teoría de Juegos y Economía Política FEN UChile
 He estado escribiendo apuntes para el ramo de Economía Aplicada junto al profesor Óscar Landerretche. Algunos de los borradores para distintos capítulos que he escrito:
