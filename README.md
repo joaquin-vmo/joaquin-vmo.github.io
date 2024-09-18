@@ -31,6 +31,6 @@ Canal con más de 5 mil subscriptores con el objetivo de apoyar mediante videos 
 - Video de Hotelling [Video](https://youtu.be/p7UcJlSK_qY?si=CecJ5Q1rEyIp3g2C), [Recurso](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fscl%2Ffi%2Fsms2xho2gynlmy3l2m3p3%2FModelo-de-Hotelling%3Frlkey%3Dmonyk0k6e9l266jmnuvu0jwkf%26dl%3D0&sa=D)
 - Video de Equilibrio General con Producción [Video](https://youtu.be/NgxHDSLMPbo?si=gaVw4cDE1Kq89EQ_), [Recurso](https://www.google.com/url?q=https%3A%2F%2Fwww.dropbox.com%2Fscl%2Ffi%2Fzt9xbmveusd8vti8v6kd3%2FEquilibrio-General-con-Producci-n.pdf%3Frlkey%3Dq56vj7lyr2bczduk0v5o26b4b%26dl%3D0&sa=D)
 
-### Organización Congreso Crítica de Ciencias Económicas.
+### Organización Congreso Crítica de Ciencias Económicas (CCEA)
 - En 2022 participé como parte de la mesa de pluralidad económica, encargándome de investigar posibles académicos con los cuáles contacté para invitar al congreso. Algunos de los académicos que participaron en el congreso fueron: Joseph Stigliz, Roberto Veneziani, José De Gregorio, Javier Rodríguez Weber, entre otros.
 - Ahora (2024) estoy participando del proceso de Call for Posters, con el objetivo de exponer investigaciones de estudiantes de pre y post grado que contengan elementos críticos y de interés. 
