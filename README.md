@@ -1,6 +1,6 @@
-Estoy enfocado en avanzar en mi carrera académica motivado por la investigación y la docencia. Mis áreas de interés incluyen la Organización Industrial, la Economía Laboral y la Economía Monetaria. [CV](https://drive.google.com/file/d/1hDljhKeI6R797t3x4bExDhmuGO77-Q1-/view?usp=share_link)
+Estudiante con interés en desarrollarse en la organización industrial y las finanzas cuantitativas. Experiencia en investigación manejando bases de datos administrativos, encuestas y cruce de bases, además de estadística descriptiva y revisión de literatura. Ayudante de cátedra de ramos micro y macroeconómicos y tutor de economía. [CV](https://drive.google.com/file/d/1BdfOWeNOovYvB0IvipRGZ4h12ycESpSo/view?usp=share_link)
 
-#### Software: R, Python, Stata, Excel, SQL
+#### Softwares principales: R, Python, Excel
 
 ## Experiencia Investigando
 Mi experiencia en proyectos de investigación se centran en mercado laboral.
@@ -13,7 +13,7 @@ Mi experiencia en proyectos de investigación se centran en mercado laboral.
 Preparar material, dictar ayudantías y corregir evaluaciones. Pregrado FEN UChile
 - Organización Industrial (Microeconomía II) prof. Paola Bordón - Otoño y Primavera 2024
 - Teoría Monetaria (Macroeconomía II) prof. Jorge Hermann - Otoño 2024
-- Economía Política (Economía Aplicada) prof. Óscar Landerretche - Primavera 2023 y Primavera 2024
+- Economía Aplicada prof. Óscar Landerretche - Primavera 2023 y Primavera 2024
 - Introducción a la Macroeconomía, prof. Eugenia Andreasen & Humberto Martínez - Primavera 2024
 
 ### Tutor de apoyo académico FEN UChile
@@ -22,7 +22,7 @@ Imparto clases semanales como parte del programa de apoyo académico para el ram
 
 ### Apunte Microeconomía: Teoría de Juegos y Economía Política FEN UChile
 He estado escribiendo el texto del ramo de Economía Aplicada de Óscar Landerretche. Hasta ahora he escrito sobre los siguientes temas:
-- El Problema de lo Privado y lo Público: Equilibrio General y Externalidades. [Borrador](https://drive.google.com/file/d/1oGD-EPw-s-ZbKlEIrfncZR8e9jWctPhd/view?usp=sharing)
+- El Problema de lo Privado y lo Público: Equilibrio General y Externalidades.
 - El Problema del tiempo y del riesgo: Consumo intertemporal y Cartera de Markowitz.
 - Bases para la Organización Industrial: Teoría de Juegos, Competencia imperfecta y Colusión.
 
