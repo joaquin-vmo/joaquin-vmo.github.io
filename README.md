@@ -29,6 +29,6 @@ I have been writing the course text for Applied Economics, taught by Prof. Ósca
 
 ### Member of FenVID
 FenVID is a channel with over 5,000 subscribers aimed at supporting students in economics and business-related fields through explanatory videos. I have created the content and edited my own videos:
-- Product Diferentiation [Video](https://youtu.be/p7UcJlSK_qY?si=CecJ5Q1rEyIp3g2C),  [Video Guideline](https://drive.google.com/file/d/1Y0aeH3fof_ryVVRPvQR3XL4ttpo_-04E/view?usp=sharing)
+- Product Differentiation [Video](https://youtu.be/p7UcJlSK_qY?si=CecJ5Q1rEyIp3g2C),  [Video Guideline](https://drive.google.com/file/d/1Y0aeH3fof_ryVVRPvQR3XL4ttpo_-04E/view?usp=sharing)
 - General Equilibrium with Production [Video](https://youtu.be/NgxHDSLMPbo?si=gaVw4cDE1Kq89EQ_), [Video Guideline](https://drive.google.com/file/d/1ymY0LCEfttjLpmYiUbI9e24cTDQWKBPe/view?usp=sharing)
 - Price Discrimination (in editing) [Video Guideline](https://drive.google.com/file/d/1aDnoHwKJHlsL4xdR9hQsROSTgsu9hFJv/view?usp=sharing)
