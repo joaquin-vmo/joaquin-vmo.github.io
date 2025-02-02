@@ -1,6 +1,6 @@
 title: "Personal website"
 email: "joamartine@fen.uchile.cl"
-description: "Soy un estudiante de Ingeniería Comercial con mención en Economía, interesado en competencia y organización industrial."
+description: "Economía - Universidad de Chile"
 baseurl: ""
 url: "https://joamartine.github.io"
 github_username: "joamartine"
@@ -13,5 +13,6 @@ plugins:
 # Navigation menu
 header_pages:
   - index.md
-  - proyectos.md
+  - teaching.md
+  - materiales.md
   - cv.md
