@@ -6,6 +6,7 @@ I have had the opportunity to work as a research assistant, developing skills re
 
 ## Research Experience
 My research experience focuses on the labor market.
+- Report: Job Profiling for Transport Minutes in Santiago
 - Seminar paper: Heterogeneous Effect of COVID-19 on Labor Mismatch (with G. González) [Link](https://drive.google.com/file/d/1D6_w-8GlvZBQXEskPFQFcdcIt8ngx4ss/view?usp=sharing)
 - Literature review: Measuring Labor Mismatch in Practice [Link](https://drive.google.com/file/d/1bl-FirA7blKewJaxllg9GCRgCwHU3hKS/view?usp=sharing)
 
@@ -17,7 +18,7 @@ I have worked as a teaching assistant for courses in industrial organization, ma
 - Applied Economics – Prof. Óscar Landerretche (Spring 2023 & Spring 2024)
 - Introduction to Macroeconomics – Prof. Eugenia Andreasen & Humberto Martínez (Spring 2024)
 
-### Academic Support Lecturer - FEN UChile
+### Academic Support Unit Lecturer - FEN UChile
 I teach weekly classes as part of the academic support program for the Introduction to Economics course. In 2024, I was responsible for three groups, and in 2025, I will continue in this role while also serving as Tutor Coordinator.
 - [Class Materials](https://drive.google.com/drive/folders/12uUiQSESg_dwo9GJqRLYFbPJ4P_3CrWk?usp=sharing)
 
@@ -28,7 +29,7 @@ I have been writing the course text for Applied Economics, taught by Prof. Ósca
 - Foundations of Industrial Organization: Game Theory, Imperfect Competition, and Collusion.
 
 ### Member of FenVID
-FenVID is a channel with over 5,000 subscribers aimed at supporting students in economics and business-related fields through explanatory videos. I have created the content and edited my own videos:
+FenVID's YouTube channel has over 5,000 subscribers, its purpose is to help and connect students in economics and business-related fields through explanatory videos. I have created the content and edited my own videos:
 - Product Differentiation [Video](https://youtu.be/p7UcJlSK_qY?si=CecJ5Q1rEyIp3g2C),  [Video Guideline](https://drive.google.com/file/d/1Y0aeH3fof_ryVVRPvQR3XL4ttpo_-04E/view?usp=sharing)
 - General Equilibrium with Production [Video](https://youtu.be/NgxHDSLMPbo?si=gaVw4cDE1Kq89EQ_), [Video Guideline](https://drive.google.com/file/d/1ymY0LCEfttjLpmYiUbI9e24cTDQWKBPe/view?usp=sharing)
 - Price Discrimination (in editing) [Video Guideline](https://drive.google.com/file/d/1aDnoHwKJHlsL4xdR9hQsROSTgsu9hFJv/view?usp=sharing)
