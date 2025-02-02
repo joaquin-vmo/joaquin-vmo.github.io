@@ -3,3 +3,8 @@ logo: /assets/img/fotoPerfil.jpeg
 description: Estudiante de Licenciatura en Ciencias Económicas - Universidad de Chile. joamartine@fen.uchile.cl
 #show_downloads: true
 theme: jekyll-theme-minimal
+
+header_pages:
+  - about.md
+  - projects.md
+  - contact.md

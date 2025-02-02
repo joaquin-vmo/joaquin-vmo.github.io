@@ -1,3 +1,11 @@
+---
+layout: page
+title: Sobre mí
+permalink: /about/
+---
+
+[Sobre mí](about.md) | [Proyectos](projects.md) | [Contacto](contact.md)
+
 I am a Business Engineering student with a major in Economics at the University of Chile. I have a strong interest in developing my career in the field of industrial organization, particularly in market regulation topics. I have research experience in labor economics and hope to expand into industrial organization and politcal economy. 
 
 I have had the opportunity to work as a research assistant, developing skills required for working with administrative databases, surveys, and integrating various sources of information, as well as in descriptive statistical analysis and literature review. Additionally, I have served as a teaching assistant for microeconomics and macroeconomics courses and as an economics tutor, which has allowed me to strengthen my teaching skills and my ability to communicate complex concepts clearly. 
