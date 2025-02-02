@@ -1,10 +1,17 @@
-title: Joaquín Martínez
-logo: /assets/img/fotoPerfil.jpeg
-description: Estudiante de Licenciatura en Ciencias Económicas - Universidad de Chile. joamartine@fen.uchile.cl
-#show_downloads: true
-theme: jekyll-theme-minimal
+title: "Personal website"
+email: "joamartine@fen.uchile.cl"
+description: "Soy un estudiante de Ingeniería Comercial con mención en Economía, interesado en competencia y organización industrial."
+baseurl: ""
+url: "https://joamartine.github.io"
+github_username: "joamartine"
 
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Navigation menu
 header_pages:
-  - about.md
-  - projects.md
-  - contact.md
+  - index.md
+  - proyectos.md
+  - cv.md
