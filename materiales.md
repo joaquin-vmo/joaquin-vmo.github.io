@@ -8,16 +8,17 @@ As a tutor at the academic support unit in my faculty, I have prepared [slides](
 
 # Industrial Organization
 Industrial Organization problem sets from my Recitation/Tutorials as a teaching assistant. [link](assets/IO_ayud.pdf).
-
-# Official Lecture Notes - Microeconomics
-## Applied Economics, Political Economy with Professor Óscar Landerretche
+ 
+# Official Lecture Notes - Microeconomics with Professor Óscar Landerretche
 I have been writing the course text for Applied Economics, taught by Prof. Óscar Landerretche. [link](assets/ecopol.pdf). I have written about the following topics:
 - The Problem of the Private and the Public: General Equilibrium and Externalities.
 - The Problem of Time and Risk: Intertemporal Consumption and the Markowitz Portfolio.
 - Foundations of Industrial Organization: Game Theory, Imperfect Competition, and Collusion.
+
 The academic and political background of scholars and intellectuals mentioned in the text was written by M. Ignacia Ibañez.
 
 # FenVID
+
 ## Price Discrimination
 Video on 1st, 2nd and 3rd price discrimination, effect on general wellfare. Video on editing phase, Video Guideline [link](assets/disc.pdf)
 
