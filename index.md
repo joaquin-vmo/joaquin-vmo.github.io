@@ -2,7 +2,7 @@
   layout: home
   title: "Bienvenido a mi página"
   ---
-  ![Mi Foto](assets/images/mi_foto.jpg)
+  ![Mi Foto](assets/fotoPergil.jpeg)
   
   ## Sobre mí
   Soy un estudiante de Ingeniería Comercial con mención en Economía. Me apasiona la competencia y la organización industrial.
