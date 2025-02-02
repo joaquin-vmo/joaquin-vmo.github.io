@@ -14,6 +14,7 @@ I have been writing the course text for Applied Economics, taught by Prof. Ósca
 - The Problem of the Private and the Public: General Equilibrium and Externalities.
 - The Problem of Time and Risk: Intertemporal Consumption and the Markowitz Portfolio.
 - Foundations of Industrial Organization: Game Theory, Imperfect Competition, and Collusion.
+
 The academic and political background of scholars and intellectuals mentioned in the text was written by M. Ignacia Ibañez.
 
 # FenVID
