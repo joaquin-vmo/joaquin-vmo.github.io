@@ -11,4 +11,4 @@
 </a>
   
 ## About me
-BSc in Economics, MA in economics student at University of Chile. Mainly interested Industrial Organization and Political Economy. Materials on videos and classes are accesible at [materials](materiales.md).
+BSc in Economics, MA in economics student at University of Chile. Mainly interested Industrial Organization and Political Economy. Materials on videos and classes are accesible [here](materiales.md).
