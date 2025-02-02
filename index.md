@@ -1,7 +1,8 @@
 ---
   layout: home
   title: "Bienvenido a mi página"
-  ---
+---
+
   ![Mi Foto](assets/img/fotoPerfil.jpeg)
   
   ## Sobre mí

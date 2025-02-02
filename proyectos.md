@@ -1,7 +1,7 @@
 ---
   layout: page
   title: "Proyectos"
-  ---
+---
   ## Mis proyectos
   Aquí encontrarás un listado de mis proyectos y repositorios.
   
