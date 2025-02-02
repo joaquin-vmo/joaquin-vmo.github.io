@@ -1,11 +1,11 @@
 ---
   layout: home
-  title: "Bienvenido a mi página"
+  title: "Personal Website"
 ---
 
   ![Mi Foto](assets/img/fotoPerfil.jpeg)
   
-  ## Sobre mí
-  Soy un estudiante de Ingeniería Comercial con mención en Economía. Me apasiona la competencia y la organización industrial.
-  
-  [Ver mis proyectos](proyectos.md) | [Mi CV](cv.md)
+## About me
+BSc in Economics, MA in economics student. Mainly interested Industrial Organization and Political Economy.  
+
+[Ver mis proyectos](proyectos.md) | [Mi CV](cv.md)
