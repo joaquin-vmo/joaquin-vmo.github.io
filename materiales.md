@@ -4,7 +4,7 @@
 ---
 
 # Introduction to Economics
-As a tutor at the academic support unit in my faculty, I have prepared [slides](assets/otoño2025.pdf) for other students to supplement my lectures.
+As a tutor at the academic support unit in my faculty, I have prepared [slides](assets/otono2025.pdf) for other students to supplement my lectures.
 
 # Industrial Organization
 Industrial Organization problem sets from my Recitation/Tutorials as a teaching assistant. [link](assets/IO_ayud.pdf).
