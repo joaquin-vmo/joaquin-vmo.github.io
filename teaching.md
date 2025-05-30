@@ -4,6 +4,9 @@
 ---
 
 Some teaching experience from my work as a teaching assistant and tutor at my faculty. 
+# Graduate Teaching Assistant
+- International Finance
+
 # Undergrad Teaching Assistant
 I have worked as a teaching assistant for courses in industrial organization, macroeconomics, and applied microeconomics at my faculty.
 - Industrial Organization (Microeconomics II) – Prof. Paola Bordón (Fall & Spring 2024, Fall 2025)
