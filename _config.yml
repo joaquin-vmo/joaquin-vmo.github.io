@@ -13,7 +13,5 @@ plugins:
 # Navigation menu
 header_pages:
   - index.md
-  - exp.md
-  - teaching.md
   - materiales.md
   - cv.md
