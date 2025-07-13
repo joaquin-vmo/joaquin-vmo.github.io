@@ -3,27 +3,35 @@
   title: "Materials (in spanish)"
 ---
 
-# Introduction to Economics
-As a tutor at the academic support unit in my faculty, I have prepared [slides](assets/2025_1.pdf) for other students to supplement my lectures.
+# Introducción a la economía
+Formo parte del equipo de tutores de apoyo académico de la FEN UCHILE. Las tutorías del programa de apoyo entre pares buscan ser un espacio en que los estudiantes se sientan más cómodos en resolver dudas y desarrollar su vida universitaria. Como tutor coordinador de introducción a la economía he preparado las siguientes slides para apoyar a los estudiantes y demás tutores.  [slides](assets/2025_1.pdf)
 
-# Industrial Organization
-Industrial Organization problem sets from my Recitation/Tutorials as a teaching assistant. [link](assets/IO_ayud.pdf).
+# Organización Industrial
+Aquí está el material que he ido desarrollando como ayudante de cátedra en el ramo de pregrado de organización industrial [link](assets/ayudan_IO.pdf).
  
-# Official Lecture Notes - Microeconomics with Professor Óscar Landerretche
-I have been writing the course text for Applied Economics, taught by Prof. Óscar Landerretche. [link](assets/ecopol.pdf). I have written about the following topics:
-- The Problem of the Private and the Public: General Equilibrium and Externalities.
-- The Problem of Time and Risk: Intertemporal Consumption and the Markowitz Portfolio.
-- Foundations of Industrial Organization: Game Theory, Imperfect Competition, and Collusion.
+# Apunte oficial de microeconomía del profesor Óscar Landerretche
+Como ayudante de economía aplicada escribí parte del apunte oficial del curso en los siguientes tópicos:
+- El Problema de lo Privado y lo Público: Equilibrio General y Externalidades.
+- El Problema del Tiempo y del Riesgo: Consumo intertemporal, seguros y teoría de portafolio.
+- Organización Industrial: Teoría de juegos, Competencia imperfecta y Colusión.
 
-The academic and political background of scholars and intellectuals mentioned in the text was written by M. Ignacia Ibañez.
+El background académico y político de los pensadores y economistas fue escrito por M. Ignacia Ibañez.
+
+[link](assets/ecopol.pdf)
 
 # FenVID
 
-## Price Discrimination
-Video on 1st, 2nd and 3rd price discrimination, effect on general wellfare. Video on editing phase, Video Guideline [link](assets/disc.pdf)
+En FenVID buscamos apoyar a la comunidad universitaria con videos de apoyo en materias relevantes de economía y administración. Estos son los videos que planificado, grabado y editado:
 
-## Product Differentiation
-The introduction to product differentiation mainly focuses on understanding the intuition behind minimal and maximal differentiation, once the demand function is obtained and the optimal response function is derived. [Video](https://youtu.be/p7UcJlSK_qY?si=CecJ5Q1rEyIp3g2C), [Video Guideline](assets/hotelling.pdf)
+## Modigliani & Miller (sin impuestos)
+Video sobre el modelo de Modigliani Miller sin impuestos.  
+[Video](https://www.youtube.com/watch?v=DwXYRu7sPEA), [Material](assets/fenvid_MM_1.pdf)
 
-## General Equilibrium with Production
-Guided exercise on a general equilibrium with production problem set. The main objective is to understand how to define maximization problems subject to production and budget constraint. [Video](https://youtu.be/NgxHDSLMPbo?si=gaVw4cDE1Kq89EQ_), [Video Guideline](assets/general.pdf)
+## Discriminación de precio
+Discriminación de precio en primer, segundo y tercer grado. Efecto sobre el bienestar general, video no subido. [Material](assets/disc.pdf)
+
+## Diferenciación horizontal (Hotelling)
+Modelando la mínima y máxima diferenciación, encontrar la demanda de los consumidores para derivar las funcioens de reacción y analizar. [Video](https://youtu.be/p7UcJlSK_qY?si=CecJ5Q1rEyIp3g2C), [Material](assets/hotelling.pdf)
+
+## Equilibrio general con producción
+Explicación y ejercicio guiado sobre un problem set con equilibrio general con producción. Ejercicio muy útil para estudiantes que necesiten aprender a plantear los problemas de maximización y minimización de manera práctica. [Video](https://youtu.be/NgxHDSLMPbo?si=gaVw4cDE1Kq89EQ_), [Material](assets/general.pdf)

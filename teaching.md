@@ -5,10 +5,10 @@
 
 Some teaching experience from my work as a teaching assistant and tutor at my faculty. 
 # Graduate Teaching Assistant
-- International Finance
+- International Finance (Master in Economic Analysis)
 
 # Undergrad Teaching Assistant
-I have worked as a teaching assistant for courses in industrial organization, macroeconomics, and applied microeconomics at my faculty.
+I have worked as a teaching assistant for courses in industrial organization, macroeconomics, and applied microeconomics at my faculty. (BSc in Economics)
 - Industrial Organization (Microeconomics II) – Prof. Paola Bordón (Fall & Spring 2024, Fall 2025)
 - Monetary Theory (Macroeconomics II) – Prof. Jorge Hermann (Fall 2024)
 - Applied Economics – Prof. Óscar Landerretche (Spring 2023 & Spring 2024)
