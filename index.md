@@ -11,4 +11,4 @@
 </a>
   
 ## About me
-BSc in Economics at University of Chile. Mainly interested Industrial Organization and Macrofinance. Materials on videos and classes are accesible [here](materiales.md).
+BSc in Economics at University of Chile. Mainly interested in macroeconomics and finance. Recursos de videos y ayudantías [aquí](materiales.md).

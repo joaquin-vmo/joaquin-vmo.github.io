@@ -7,7 +7,10 @@
 Formo parte del equipo de tutores de apoyo académico de la FEN UCHILE. Las tutorías del programa de apoyo entre pares buscan ser un espacio en que los estudiantes se sientan más cómodos en resolver dudas y desarrollar su vida universitaria. Como tutor coordinador de introducción a la economía he preparado las siguientes slides para apoyar a los estudiantes y demás tutores.  [slides](assets/2025_1.pdf)
 
 # Organización Industrial
-Aquí está el material que he ido desarrollando como ayudante de cátedra en el ramo de pregrado de organización industrial [link](assets/ayudan_IO.pdf).
+Aquí está el material que he ido desarrollando como ayudante de cátedra en el ramo de pregrado de organización industrial. [link](assets/ayudan_IO.pdf)
+
+# Finanzas Internacionales
+Material de ayudantías grabadas para el ramo de finanzas internacionales del magíster en análisis económico. [link](FI_pautas.pdf)
  
 # Apunte oficial de microeconomía del profesor Óscar Landerretche
 Como ayudante de economía aplicada escribí parte del apunte oficial del curso en los siguientes tópicos:
