@@ -1,16 +1,24 @@
-title: "Personal website"
+# --- Información del Sitio y Traducción ---
+title: "Joaquín Martínez Ojeda" # Título principal del sitio (más profesional)
+author: "Joaquín Martínez Ojeda" # Tu nombre
 email: "joamartine@fen.uchile.cl"
-description: "Economía - Universidad de Chile"
-baseurl: ""
+description: "Economía - Universidad de Chile" # Esto está perfecto para SEO
 url: "https://joamartine.github.io"
-github_username: "joamartine"
+baseurl: ""
+lang: "es" # ¡MUY IMPORTANTE! Esto traduce el tema Minima a español.
 
-# Build settings
+# --- Redes Sociales (Se mostrarán en el pie de página) ---
+github_username: "joamartine"
+linkedin_username: "joaquinmartinezojeda" # Solo el usuario, no la URL completa
+
+# --- Build settings ---
 theme: minima
 plugins:
   - jekyll-feed
 
-# Navigation menu
+# --- Páginas del Menú de Navegación ---
+# Esta lista define QUÉ páginas mostrar en el menú.
+# El TÍTULO de cada enlace se define dentro del propio archivo (ej: en index.md).
 header_pages:
   - index.md
   - materiales.md

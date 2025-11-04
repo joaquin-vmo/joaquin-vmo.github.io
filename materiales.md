@@ -1,15 +1,15 @@
 ---
-  layout: page
-  title: "Materials (in spanish)"
+layout: page
+title: "Materiales" # Título para la barra de navegación
 ---
 
-# Ayudantías y tutorías
+**Ayudantías y Tutorías**
 - [Tutorías de Introducción a la Economía](assets/2025_1.pdf)
 - [Organización Industrial](assets/ayudan_IO.pdf)
 - [Finanzas Internacionales](FI_pautas.pdf)
-- Economía Aplicada / Economía Política
+- [Economía Aplicada / Economía Política](assets/apunte_ecopol.pdf)
 
-# FenVID
+**FenVID**
 - Modigliani & Miller (sin impuestos) [Video](https://www.youtube.com/watch?v=DwXYRu7sPEA), [Material](assets/fenvid_MM_1.pdf)
 - Discriminación de Precios [Material](assets/disc.pdf)
 - Diferenciación Horizontal [Video](https://youtu.be/p7UcJlSK_qY?si=CecJ5Q1rEyIp3g2C), [Material](assets/hotelling.pdf)
