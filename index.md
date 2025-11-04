@@ -10,5 +10,5 @@
     <img src="assets/img/linkedin.jpg" alt="LinkedIn" width="30px" style="vertical-align: middle;">
 </a>
   
-## About me
-BSc in Economics at University of Chile. Mainly interested in macroeconomics and finance. Recursos de videos y ayudantías [aquí](materiales.md).
+## Bio
+Estoy egresando de ingeniería comercial de la Universidad de Chile, tengo intereses en Finanzas, Macroeconomía y Organización Industrial. Acceso a recursos de videos y ayudantías [aquí](materiales.md).
