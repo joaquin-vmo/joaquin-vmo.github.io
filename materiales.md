@@ -6,7 +6,7 @@ title: "Materiales" # Título para la barra de navegación
 **Ayudantías y Tutorías**
 - [Tutorías de Introducción a la Economía](assets/2025_1.pdf)
 - [Organización Industrial](assets/ayudan_IO.pdf)
-- [Finanzas Internacionales](FI_pautas.pdf)
+- [Finanzas Internacionales](assets/FI_pautas.pdf)
 - [Economía Aplicada / Economía Política](assets/apunte_ecopol.pdf)
 
 **FenVID**

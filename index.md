@@ -13,4 +13,4 @@ title: "Inicio" # Título que aparecerá en la barra de navegación
 
 </div>
 
-<br> Estoy egresando de ingeniería comercial de la Universidad de Chile, tengo intereses en Finanzas, Macroeconomía y Organización Industrial. Acceso a recursos de videos y ayudantías [aquí](materiales.md).
+<br> Egresado de Ingeniería Comercial de la Universidad de Chile empezando el Magíster en Análisis Económico en 2026. Me interesa la Organización Industrial, Finanzas y Macroeconomía. Acceso a recursos de videos y ayudantías [aquí](materiales.md).
