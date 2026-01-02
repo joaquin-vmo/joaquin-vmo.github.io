@@ -13,4 +13,4 @@ title: "Inicio" # Título que aparecerá en la barra de navegación
 
 </div>
 
-<br> Egresado de Ingeniería Comercial de la Universidad de Chile empezando el Magíster en Análisis Económico en 2026. Me interesa la Organización Industrial, Finanzas y Macroeconomía. Acceso a recursos de videos y ayudantías [aquí](materiales.md).
+<br> Egresado de Ingeniería Comercial de la Universidad de Chile empezando el Magíster en Análisis Económico en 2026. Me interesa el área de competencia y regulación, macrofinanzas y finanzas corporativas. Acceso a recursos de videos y ayudantías [aquí](materiales.md).
