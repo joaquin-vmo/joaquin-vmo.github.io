@@ -4,7 +4,7 @@ title: "Materiales" # Título para la barra de navegación
 ---
 
 **Ayudantías y Tutorías**
-- [Tutorías de Introducción a la Economía](assets/2025_1.pdf)
+- [Tutorías de Introducción a la Economía](assets/intro_eco.pdf)
 - [Organización Industrial](assets/ayudan_IO.pdf)
 - [Finanzas Internacionales](assets/FI_pautas.pdf)
 
