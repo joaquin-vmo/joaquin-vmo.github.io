@@ -19,6 +19,9 @@
     --red: #e74c3c;
     --radius: 6px;
     --transition: 0.3s ease;
+    --shadow-sidebar: 2px 0 20px rgba(0,0,0,0.07);
+    --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 4px 14px rgba(0,0,0,0.05);
+    --shadow-card-hover: 0 6px 24px rgba(0,0,0,0.11);
   }
 
   html.dark {
@@ -31,6 +34,9 @@
     --accent: #5c9eff;
     --accent-hover: #7fb3ff;
     --border: #2a2a2a;
+    --shadow-sidebar: none;
+    --shadow-card: none;
+    --shadow-card-hover: none;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -43,6 +49,7 @@
     line-height: 1.7;
     font-weight: 300;
     -webkit-font-smoothing: antialiased;
+    transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   ::selection {
@@ -59,11 +66,11 @@
     left: 0;
     height: 100vh;
     padding: 2.5rem 2rem;
-    border-right: 1px solid var(--border);
+    box-shadow: var(--shadow-sidebar);
     display: flex;
     flex-direction: column;
     z-index: 100;
-    transition: transform var(--transition);
+    transition: transform var(--transition), background-color 0.3s ease, box-shadow 0.3s ease;
   }
 
   .sidebar-header { margin-bottom: 2.5rem; }
@@ -304,7 +311,7 @@
     font-size: 0.68rem;
     letter-spacing: 0.04em;
     padding: 0.25rem 0.65rem;
-    border-radius: var(--radius);
+    border-radius: 999px;
     border: 1px solid var(--border);
     color: var(--text-muted);
     transition: all var(--transition);
@@ -405,12 +412,14 @@
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
+    box-shadow: var(--shadow-card);
   }
 
   .material-card:hover {
     background: var(--bg-card-hover);
-    border-color: #3a3a3a;
+    border-color: var(--border);
     transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
   }
 
   .material-type {
@@ -514,12 +523,14 @@
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
+    box-shadow: var(--shadow-card);
   }
 
   .video-card:hover {
     background: var(--bg-card-hover);
-    border-color: #3a3a3a;
+    border-color: var(--border);
     transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
   }
 
   .video-card-header {
@@ -573,12 +584,14 @@
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
+    box-shadow: var(--shadow-card);
   }
 
   .project-card:hover {
     background: var(--bg-card-hover);
-    border-color: #3a3a3a;
+    border-color: var(--border);
     transform: translateY(-3px);
+    box-shadow: var(--shadow-card-hover);
   }
 
   .project-card-header {
@@ -615,7 +628,7 @@
     font-size: 0.65rem;
     letter-spacing: 0.04em;
     padding: 0.2rem 0.55rem;
-    border-radius: var(--radius);
+    border-radius: 999px;
     background: rgba(92, 158, 255, 0.12);
     color: var(--accent);
   }
