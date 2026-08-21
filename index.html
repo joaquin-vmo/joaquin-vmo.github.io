@@ -726,57 +726,115 @@
     margin-bottom: 2.2rem;
   }
 
+  .research-intro a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent-soft);
+    transition: color var(--transition), border-color var(--transition);
+  }
+
+  .research-intro a:hover { color: var(--accent-hover); border-color: var(--accent-hover); }
+
   .research-intro strong {
     color: var(--text);
     font-weight: 600;
   }
 
-  .research-list {
+  /* nube de palabras de los informes */
+  .wordcloud {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.8rem 2rem 1.4rem;
+  }
+
+  .wc-head {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .wc-label {
+    font-size: 0.6rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .wc-meta {
+    font-size: 0.63rem;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .wc-words {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.35rem 1.1rem;
+    padding: 1.8rem 0.5rem 1.4rem;
+  }
+
+  .wc-w {
+    font-size: var(--s);
+    line-height: 1.25;
+    letter-spacing: -0.03em;
+    cursor: default;
+    transition: color var(--transition), opacity var(--transition);
+  }
+
+  .wc-a { color: var(--accent); font-weight: 600; }
+  .wc-b { color: var(--text); font-weight: 500; }
+  .wc-c { color: var(--text-muted); font-weight: 400; opacity: 0.8; }
+  .wc-words:hover .wc-w { opacity: 0.45; }
+  .wc-words .wc-w:hover { color: var(--accent-hover); opacity: 1; }
+
+  .wc-foot {
+    font-size: 0.63rem;
+    color: var(--text-muted);
+    text-align: center;
+    padding-top: 0.6rem;
     border-top: 1px solid var(--border);
   }
 
-  .research-item {
-    display: grid;
-    grid-template-columns: 6.5rem 1fr auto;
-    align-items: baseline;
-    gap: 1.2rem;
-    padding: 1rem 0.5rem;
-    border-bottom: 1px solid var(--border);
+  .research-cta {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 1.2rem 1.6rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
     text-decoration: none;
     color: inherit;
-    transition: background-color var(--transition), padding var(--transition);
+    transition: all var(--transition);
   }
 
-  .research-item:hover {
-    background: var(--bg-card);
-    padding-left: 0.9rem;
+  .research-cta:hover {
+    background: var(--bg-card-hover);
+    transform: translateY(-2px);
   }
 
-  .research-date {
-    font-size: 0.68rem;
-    color: var(--text-muted);
-    font-variant-numeric: tabular-nums;
-    letter-spacing: -0.02em;
-    white-space: nowrap;
+  .research-cta-text { display: flex; flex-direction: column; gap: 0.25rem; }
+  .research-cta-text strong { font-size: 0.85rem; font-weight: 600; letter-spacing: -0.02em; }
+  .research-cta-text span { font-size: 0.7rem; color: var(--text-muted); }
+
+  .research-cta svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: var(--accent);
+    transition: transform var(--transition);
   }
 
-  .research-title {
-    font-size: 0.8rem;
-    font-weight: 500;
-    line-height: 1.6;
-    letter-spacing: -0.01em;
-    transition: color var(--transition);
-  }
-
-  .research-item:hover .research-title { color: var(--accent); }
-
-  .research-pages {
-    font-size: 0.63rem;
-    color: var(--text-muted);
-    white-space: nowrap;
-  }
+  .research-cta:hover svg { transform: translateX(4px); }
 
   /* ── CONTACT ── */
   .contact-section {
@@ -840,12 +898,9 @@
       grid-template-columns: 1fr;
     }
 
-    .research-item {
-      grid-template-columns: 1fr auto;
-      gap: 0.3rem 1rem;
-    }
-
-    .research-date { grid-column: 1 / -1; }
+    .wordcloud { padding: 1.4rem 1.2rem 1rem; }
+    .wc-words { gap: 0.3rem 0.8rem; padding: 1.4rem 0 1rem; }
+    .wc-w { font-size: calc(var(--s) * 0.82); }
   }
 
   @media (max-width: 768px) {
@@ -1116,71 +1171,67 @@
       <h2 class="section-title">Informes de Research</h2>
     </div>
 
-    <p class="research-intro fade-in">Como asociado del <strong>Club de Finanzas de la Universidad de Chile</strong> armé el equipo de estudios. Como <strong>Head of Research</strong> del grupo dirijo la publicación de informes de coyuntura macroeconómica y de mercados.</p>
+    <p class="research-intro fade-in">Como asociado del <strong>Club de Finanzas de la Universidad de Chile</strong> armé el equipo de estudios. Como <strong>Head of Research</strong> del grupo dirijo la publicación de informes de coyuntura macroeconómica y de mercados. Todos se publican en el <a href="https://joaquin-vmo.github.io/club-finanzas/" target="_blank" rel="noopener">repositorio del Club</a>; abajo, los términos que más se repiten en los que van a la fecha.</p>
 
-    <div class="research-list fade-in">
-
-      <a href="https://joaquin-vmo.github.io/club-finanzas/informes/2026-08-21_determinantes_oro.pdf" target="_blank" class="research-item">
-        <span class="research-date">21 ago 2026</span>
-        <span class="research-title">Determinantes del precio del oro y el giro hacia los bancos centrales</span>
-        <span class="research-pages">5 pp.</span>
-      </a>
-
-      <a href="https://joaquin-vmo.github.io/club-finanzas/informes/2026-08-14_situational_awareness.pdf" target="_blank" class="research-item">
-        <span class="research-date">14 ago 2026</span>
-        <span class="research-title">El desplome de Situational Awareness</span>
-        <span class="research-pages">5 pp.</span>
-      </a>
-
-      <a href="https://joaquin-vmo.github.io/club-finanzas/informes/2026-08-05_reintegracion_tributaria.pdf" target="_blank" class="research-item">
-        <span class="research-date">05 ago 2026</span>
-        <span class="research-title">La reintegración tributaria y el escudo tributario de la deuda</span>
-        <span class="research-pages">6 pp.</span>
-      </a>
-
-      <a href="https://joaquin-vmo.github.io/club-finanzas/informes/2026-06-11_spacex_ipo.pdf" target="_blank" class="research-item">
-        <span class="research-date">11 jun 2026</span>
-        <span class="research-title">SpaceX IPO: entre fundamentales y expectativas</span>
-        <span class="research-pages">7 pp.</span>
-      </a>
-
-      <a href="https://joaquin-vmo.github.io/club-finanzas/informes/2026-06-01_etf.pdf" target="_blank" class="research-item">
-        <span class="research-date">01 jun 2026</span>
-        <span class="research-title">ETF: récord, gestión activa y su primera gran prueba de estrés</span>
-        <span class="research-pages">6 pp.</span>
-      </a>
-
-      <a href="https://joaquin-vmo.github.io/club-finanzas/informes/2026-05-19_cobre.pdf" target="_blank" class="research-item">
-        <span class="research-date">19 may 2026</span>
-        <span class="research-title">Cobre en máximos históricos: oferta estructural, demanda tecnológica y tipo de cambio en Chile</span>
-        <span class="research-pages">6 pp.</span>
-      </a>
-
-      <a href="https://joaquin-vmo.github.io/club-finanzas/informes/2026-05-11_iva_vivienda.pdf" target="_blank" class="research-item">
-        <span class="research-date">11 may 2026</span>
-        <span class="research-title">Más allá del 19 %: rebaja del IVA a la vivienda</span>
-        <span class="research-pages">7 pp.</span>
-      </a>
-
-      <a href="https://joaquin-vmo.github.io/club-finanzas/informes/2026-04-28_rpm_abril.pdf" target="_blank" class="research-item">
-        <span class="research-date">28 abr 2026</span>
-        <span class="research-title">RPM de abril: TPM en 4,5 % y mayor cautela ante el riesgo de persistencia inflacionaria</span>
-        <span class="research-pages">3 pp.</span>
-      </a>
-
-      <a href="https://joaquin-vmo.github.io/club-finanzas/informes/2026-04-24_shock_petrolero.pdf" target="_blank" class="research-item">
-        <span class="research-date">24 abr 2026</span>
-        <span class="research-title">El shock petrolero de 2026: reconfiguración global y desafíos para la política monetaria en Chile</span>
-        <span class="research-pages">4 pp.</span>
-      </a>
-
-      <a href="https://joaquin-vmo.github.io/club-finanzas/informes/2026-04-17_ajuste_fiscal.pdf" target="_blank" class="research-item">
-        <span class="research-date">17 abr 2026</span>
-        <span class="research-title">El ajuste fiscal de la administración de Kast: magnitud y efecto sobre el crecimiento 2026–2028</span>
-        <span class="research-pages">6 pp.</span>
-      </a>
-
+    <div class="wordcloud fade-in">
+      <div class="wc-head">
+        <span class="wc-label">Temas recurrentes</span>
+        <span class="wc-meta">10 informes · 2026</span>
+      </div>
+      <div class="wc-words">
+      <span class="wc-w wc-b" style="--s:1.54rem" title="23 menciones">inversión</span>
+      <span class="wc-w wc-c" style="--s:1.04rem" title="12 menciones">energía</span>
+      <span class="wc-w wc-b" style="--s:1.38rem" title="19 menciones">flujos</span>
+      <span class="wc-w wc-b" style="--s:1.65rem" title="26 menciones">costos</span>
+      <span class="wc-w wc-c" style="--s:1.19rem" title="15 menciones">PIB</span>
+      <span class="wc-w wc-c" style="--s:0.91rem" title="10 menciones">inflación</span>
+      <span class="wc-w wc-c" style="--s:0.98rem" title="11 menciones">gasto</span>
+      <span class="wc-w wc-c" style="--s:1.24rem" title="16 menciones">shock</span>
+      <span class="wc-w wc-b" style="--s:1.65rem" title="26 menciones">activos</span>
+      <span class="wc-w wc-b" style="--s:1.46rem" title="21 menciones">impuestos</span>
+      <span class="wc-w wc-c" style="--s:0.84rem" title="9 menciones">TPM</span>
+      <span class="wc-w wc-c" style="--s:1.19rem" title="15 menciones">alza</span>
+      <span class="wc-w wc-a" style="--s:1.87rem" title="32 menciones">fiscal</span>
+      <span class="wc-w wc-c" style="--s:1.19rem" title="15 menciones">estructural</span>
+      <span class="wc-w wc-c" style="--s:1.14rem" title="14 menciones">expectativas</span>
+      <span class="wc-w wc-c" style="--s:1.09rem" title="13 menciones">inteligencia artificial</span>
+      <span class="wc-w wc-b" style="--s:1.29rem" title="17 menciones">oro</span>
+      <span class="wc-w wc-a" style="--s:2.44rem" title="50 menciones">precios</span>
+      <span class="wc-w wc-a" style="--s:1.76rem" title="29 menciones">oferta</span>
+      <span class="wc-w wc-c" style="--s:1.04rem" title="12 menciones">IPO</span>
+      <span class="wc-w wc-c" style="--s:0.98rem" title="11 menciones">Starlink</span>
+      <span class="wc-w wc-c" style="--s:1.24rem" title="16 menciones">vivienda</span>
+      <span class="wc-w wc-a" style="--s:2.13rem" title="40 menciones">ETF</span>
+      <span class="wc-w wc-c" style="--s:1.19rem" title="15 menciones">ajuste</span>
+      <span class="wc-w wc-c" style="--s:1.19rem" title="15 menciones">impacto</span>
+      <span class="wc-w wc-c" style="--s:1.14rem" title="14 menciones">global</span>
+      <span class="wc-w wc-b" style="--s:1.29rem" title="17 menciones">tasas</span>
+      <span class="wc-w wc-a" style="--s:1.9rem" title="33 menciones">mercado</span>
+      <span class="wc-w wc-a" style="--s:1.76rem" title="29 menciones">SpaceX</span>
+      <span class="wc-w wc-b" style="--s:1.54rem" title="23 menciones">crecimiento</span>
+      <span class="wc-w wc-b" style="--s:1.42rem" title="20 menciones">demanda</span>
+      <span class="wc-w wc-b" style="--s:1.69rem" title="27 menciones">cobre</span>
+      <span class="wc-w wc-c" style="--s:0.84rem" title="9 menciones">valoración</span>
+      <span class="wc-w wc-c" style="--s:1.04rem" title="12 menciones">ingresos</span>
+      <span class="wc-w wc-c" style="--s:0.98rem" title="11 menciones">política monetaria</span>
+      <span class="wc-w wc-b" style="--s:1.5rem" title="22 menciones">dólar</span>
+      <span class="wc-w wc-b" style="--s:1.46rem" title="21 menciones">capital</span>
+      <span class="wc-w wc-c" style="--s:1.04rem" title="12 menciones">tipo de cambio</span>
+      <span class="wc-w wc-c" style="--s:0.72rem" title="8 menciones">centros de datos</span>
+      <span class="wc-w wc-c" style="--s:1.04rem" title="12 menciones">riesgo</span>
+      <span class="wc-w wc-c" style="--s:0.98rem" title="11 menciones">petróleo</span>
+      <span class="wc-w wc-c" style="--s:1.09rem" title="13 menciones">deuda</span>
+      </div>
+      <p class="wc-foot">Términos más frecuentes en los informes publicados a la fecha.</p>
     </div>
+
+    <a href="https://joaquin-vmo.github.io/club-finanzas/" target="_blank" rel="noopener" class="research-cta fade-in">
+      <span class="research-cta-text">
+        <strong>Ver todos los informes</strong>
+        <span>Repositorio de research del Club de Finanzas FEN UChile</span>
+      </span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
   </section>
 
   <!-- ══════════════════════════════ -->
@@ -1263,7 +1314,7 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
           Web · Interactivo
         </div>
-        <h3>Finanzas Internacionales — Laboratorio interactivo</h3>
+        <h3>Modelo IS-LM — Laboratorio interactivo</h3>
         <p>Gráficos dinámicos del modelo IS-LM-BP de economía abierta (Mundell–Fleming), el overshooting de Dornbusch y la curva J / Marshall–Lerner.</p>
         <div class="material-meta">
           <span>Finanzas Internacionales · 2026</span>
