@@ -340,53 +340,6 @@
     letter-spacing: -0.03em;
   }
 
-  /* ── YO (ABOUT) ── */
-  .about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-  }
-
-  .about-text p {
-    color: var(--text-muted);
-    font-size: 0.8rem;
-    line-height: 1.8;
-    margin-bottom: 1.1rem;
-  }
-
-  .detail-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-  }
-
-  .detail-item {
-    padding-bottom: 1.2rem;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .detail-label {
-    font-size: 0.62rem;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-bottom: 0.3rem;
-  }
-
-  .detail-value {
-    font-size: 0.82rem;
-    font-weight: 400;
-    line-height: 1.7;
-  }
-
-  .detail-value a {
-    color: var(--accent);
-    text-decoration: none;
-    transition: color var(--transition);
-  }
-
-  .detail-value a:hover { color: var(--accent-hover); }
-
   /* ── MATERIALES ── */
   .materiales-grid {
     display: grid;
@@ -891,7 +844,6 @@
 
   /* ── RESPONSIVE ── */
   @media (max-width: 900px) {
-    .about-grid,
     .materiales-grid,
     .video-grid,
     .project-grid {
@@ -973,7 +925,6 @@
 
   <ul class="nav-links">
     <li><a href="#home" class="active">Inicio</a></li>
-    <li><a href="#yo">Sobre mí</a></li>
     <li><a href="#proyectos">Proyectos</a></li>
     <li><a href="#papers">Working Papers</a></li>
     <li><a href="#informes">Informes</a></li>
@@ -1028,50 +979,11 @@
   </section>
 
   <!-- ══════════════════════════════ -->
-  <!-- SECCIÓN 01: YO                -->
-  <!-- ══════════════════════════════ -->
-  <section id="yo">
-    <div class="section-header fade-in">
-      <span class="section-number">01</span>
-      <h2 class="section-title">Sobre mí</h2>
-    </div>
-    <div class="about-grid fade-in">
-      <div class="about-text">
-        <p>Soy Ingeniero Comercial de la Universidad de Chile y actualmente curso el Magíster en Análisis Económico. Me formé con un enfoque cuantitativo en microeconomía, econometría y finanzas.</p>
-        <p>Quiero trabajar en entender estructuras de mercado, apoyar decisiones financieras y construir modelos robustos con utilidad en competencia/regulación y de decisiones de mercado.</p>
-        <p>Tengo experiencia como ayudante de investigación en organización industrial y he desarrollado proyectos propios en macroeconometría y teoría económica aplicada.</p>
-      </div>
-      <div class="detail-list">
-        <div class="detail-item">
-          <div class="detail-label">Universidad</div>
-          <div class="detail-value">Universidad de Chile</div>
-        </div>
-        <div class="detail-item">
-          <div class="detail-label">Carrera</div>
-          <div class="detail-value">Ingeniero Comercial · Magíster en Análisis Económico (en curso)</div>
-        </div>
-        <div class="detail-item">
-          <div class="detail-label">Intereses</div>
-          <div class="detail-value">Libre Competencia, Organización Industrial, Finanzas Corporativas</div>
-        </div>
-        <div class="detail-item">
-          <div class="detail-label">Ayudantías</div>
-          <div class="detail-value">Métodos Empíricos en Libre Competencia y Regulación, Organización Industrial, Econometría Financiera, Finanzas Internacionales, Macroeconomía II, Finanzas II, Finanzas I, Economía Aplicada, Introducción a la Macroeconomía</div>
-        </div>
-        <div class="detail-item">
-          <div class="detail-label">Videos</div>
-          <div class="detail-value"><a href="https://www.youtube.com/@FENVidUchile" target="_blank">FenVID en YouTube →</a></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════ -->
-  <!-- SECCIÓN 02: PROYECTOS         -->
+  <!-- SECCIÓN 01: PROYECTOS         -->
   <!-- ══════════════════════════════ -->
   <section id="proyectos">
     <div class="section-header fade-in">
-      <span class="section-number">02</span>
+      <span class="section-number">01</span>
       <h2 class="section-title">Proyectos</h2>
     </div>
     <div class="project-grid fade-in">
@@ -1130,11 +1042,11 @@
   </section>
 
   <!-- ══════════════════════════════ -->
-  <!-- SECCIÓN 03: WORKING PAPERS    -->
+  <!-- SECCIÓN 02: WORKING PAPERS    -->
   <!-- ══════════════════════════════ -->
   <section id="papers">
     <div class="section-header fade-in">
-      <span class="section-number">03</span>
+      <span class="section-number">02</span>
       <h2 class="section-title">Working Papers</h2>
     </div>
 
@@ -1163,15 +1075,15 @@
   </section>
 
   <!-- ══════════════════════════════ -->
-  <!-- SECCIÓN 04: INFORMES          -->
+  <!-- SECCIÓN 03: INFORMES          -->
   <!-- ══════════════════════════════ -->
   <section id="informes">
     <div class="section-header fade-in">
-      <span class="section-number">04</span>
+      <span class="section-number">03</span>
       <h2 class="section-title">Informes de Research</h2>
     </div>
 
-    <p class="research-intro fade-in">Como asociado del <strong>Club de Finanzas de la Universidad de Chile</strong> armé el equipo de estudios. Como <strong>Head of Research</strong> del grupo dirijo la publicación de informes de coyuntura macroeconómica y de mercados. Todos se publican en el <a href="https://joaquin-vmo.github.io/club-finanzas/" target="_blank" rel="noopener">repositorio del Club</a>; abajo, los términos que más se repiten en los que van a la fecha.</p>
+    <p class="research-intro fade-in">Como associate del <strong>Club de Finanzas de la Universidad de Chile</strong> armé desde cero el equipo de estudios. Como <strong>Head of Research</strong> del grupo dirijo la publicación de informes de coyuntura macroeconómica y de mercados. Todos se publican en el <a href="https://joaquin-vmo.github.io/club-finanzas/" target="_blank" rel="noopener">repositorio del Club</a> abajo, a la fecha los términos más utilizados son los siguientes:</p>
 
     <div class="wordcloud fade-in">
       <div class="wc-head">
@@ -1199,7 +1111,6 @@
       <span class="wc-w wc-a" style="--s:2.44rem" title="50 menciones">precios</span>
       <span class="wc-w wc-a" style="--s:1.76rem" title="29 menciones">oferta</span>
       <span class="wc-w wc-c" style="--s:1.04rem" title="12 menciones">IPO</span>
-      <span class="wc-w wc-c" style="--s:0.98rem" title="11 menciones">Starlink</span>
       <span class="wc-w wc-c" style="--s:1.24rem" title="16 menciones">vivienda</span>
       <span class="wc-w wc-a" style="--s:2.13rem" title="40 menciones">ETF</span>
       <span class="wc-w wc-c" style="--s:1.19rem" title="15 menciones">ajuste</span>
@@ -1207,7 +1118,6 @@
       <span class="wc-w wc-c" style="--s:1.14rem" title="14 menciones">global</span>
       <span class="wc-w wc-b" style="--s:1.29rem" title="17 menciones">tasas</span>
       <span class="wc-w wc-a" style="--s:1.9rem" title="33 menciones">mercado</span>
-      <span class="wc-w wc-a" style="--s:1.76rem" title="29 menciones">SpaceX</span>
       <span class="wc-w wc-b" style="--s:1.54rem" title="23 menciones">crecimiento</span>
       <span class="wc-w wc-b" style="--s:1.42rem" title="20 menciones">demanda</span>
       <span class="wc-w wc-b" style="--s:1.69rem" title="27 menciones">cobre</span>
@@ -1235,11 +1145,11 @@
   </section>
 
   <!-- ══════════════════════════════ -->
-  <!-- SECCIÓN 05: MATERIALES        -->
+  <!-- SECCIÓN 04: MATERIALES        -->
   <!-- ══════════════════════════════ -->
   <section id="materiales">
     <div class="section-header fade-in">
-      <span class="section-number">05</span>
+      <span class="section-number">04</span>
       <h2 class="section-title">Materiales</h2>
     </div>
     <div class="materiales-grid fade-in">
@@ -1325,11 +1235,11 @@
   </section>
 
   <!-- ══════════════════════════════ -->
-  <!-- SECCIÓN 06: FENVID (VIDEOS)   -->
+  <!-- SECCIÓN 05: FENVID (VIDEOS)   -->
   <!-- ══════════════════════════════ -->
   <section id="fenvid">
     <div class="section-header fade-in">
-      <span class="section-number">06</span>
+      <span class="section-number">05</span>
       <h2 class="section-title">FenVID y Videos</h2>
     </div>
 
