@@ -4,7 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Joaquín Martínez | Perfil</title>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<meta name="description" content="Joaquín Martínez, Ingeniero Comercial (Universidad de Chile). Libre competencia, organización industrial y finanzas corporativas: proyectos, working papers, informes y material docente.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://joaquin-vmo.github.io/">
+<meta property="og:title" content="Joaquín Martínez | Perfil">
+<meta property="og:description" content="Libre competencia, organización industrial y finanzas corporativas: proyectos, working papers, informes y material docente.">
+<meta property="og:image" content="https://joaquin-vmo.github.io/material/pf.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231e1e2e'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='16' font-weight='700' fill='%2389b4fa' text-anchor='middle'%3EJM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<noscript><style>.fade-in { opacity: 1 !important; transform: none !important; }</style></noscript>
 <style>
   /* Catppuccin Mocha — tema único */
   :root {
@@ -24,9 +33,6 @@
     --red-fg: #1e1e2e;
     --radius: 6px;
     --transition: 0.3s ease;
-    --shadow-sidebar: none;
-    --shadow-card: none;
-    --shadow-card-hover: none;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -39,7 +45,6 @@
     line-height: 1.7;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
-    transition: background-color 0.3s ease, color 0.3s ease;
   }
 
   ::selection {
@@ -56,11 +61,10 @@
     left: 0;
     height: 100vh;
     padding: 2.5rem 2rem;
-    box-shadow: var(--shadow-sidebar);
     display: flex;
     flex-direction: column;
     z-index: 100;
-    transition: transform var(--transition), background-color 0.3s ease, box-shadow 0.3s ease;
+    transition: transform var(--transition);
   }
 
   .sidebar-header { margin-bottom: 2.5rem; }
@@ -74,7 +78,7 @@
   }
 
   .sidebar-role {
-    font-size: 0.66rem;
+    font-size: 0.72rem;
     color: var(--text-muted);
     letter-spacing: -0.01em;
     line-height: 1.6;
@@ -180,12 +184,18 @@
     z-index: 200;
     width: 42px;
     height: 42px;
+    padding: 0;
     cursor: pointer;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     justify-content: center;
     align-items: center;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
   }
 
   .menu-toggle span {
@@ -299,7 +309,7 @@
   }
 
   .hero-tag {
-    font-size: 0.62rem;
+    font-size: 0.7rem;
     letter-spacing: 0.01em;
     padding: 0.25rem 0.65rem;
     border-radius: 999px;
@@ -340,14 +350,14 @@
     letter-spacing: -0.03em;
   }
 
-  /* ── MATERIALES ── */
-  .materiales-grid {
+  /* ── TARJETAS (proyectos, papers, materiales, videos) ── */
+  .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
 
-  .material-card {
+  .card {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: var(--radius);
@@ -358,50 +368,54 @@
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
-    box-shadow: var(--shadow-card);
   }
 
-  .material-card:hover {
+  .card:hover {
     background: var(--bg-card-hover);
-    border-color: var(--border);
     transform: translateY(-3px);
-    box-shadow: var(--shadow-card-hover);
   }
 
-  .material-type {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.6rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-  }
-
-  .material-type svg {
-    width: 15px;
-    height: 15px;
-    color: var(--accent);
-  }
-
-  .material-card h3 {
+  .card h3 {
     font-size: 0.92rem;
     font-weight: 600;
     letter-spacing: -0.02em;
     line-height: 1.45;
   }
 
-  .material-card p {
+  .card p {
     color: var(--text-muted);
     font-size: 0.75rem;
     line-height: 1.7;
   }
 
-  .material-meta {
+  .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card-type {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .card-type svg {
+    width: 15px;
+    height: 15px;
+    color: var(--accent);
+  }
+
+  .card-meta {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 0.8rem;
-    font-size: 0.63rem;
+    font-size: 0.7rem;
     color: var(--text-muted);
     margin-top: auto;
     padding-top: 0.6rem;
@@ -435,7 +449,7 @@
     background: var(--red);
     color: var(--red-fg);
     padding: 0.3rem 0.7rem;
-    font-size: 0.64rem;
+    font-size: 0.7rem;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     font-weight: 600;
@@ -448,52 +462,6 @@
 
   /* el triángulo se recorta con el color del badge, no en blanco fijo */
   .yt-badge svg polygon { fill: var(--red); }
-
-  .sub-label {
-    font-size: 0.7rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-bottom: 1.2rem;
-    margin-top: 3rem;
-    padding-bottom: 0.6rem;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .sub-label:first-of-type { margin-top: 0; }
-
-  .video-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-
-  .video-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.5rem;
-    text-decoration: none;
-    color: inherit;
-    transition: all var(--transition);
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-    box-shadow: var(--shadow-card);
-  }
-
-  .video-card:hover {
-    background: var(--bg-card-hover);
-    border-color: var(--border);
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-card-hover);
-  }
-
-  .video-card-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
 
   .play-icon {
     width: 32px;
@@ -510,78 +478,19 @@
   .play-icon svg { width: 14px; height: 14px; }
 
   .video-duration {
-    font-size: 0.64rem;
+    font-size: 0.7rem;
     color: var(--text-muted);
     letter-spacing: 0.03em;
   }
 
-  .video-card h3 {
-    font-size: 0.9rem;
-    font-weight: 600;
-    letter-spacing: -0.02em;
-    line-height: 1.45;
-  }
-
-  .video-card p {
-    color: var(--text-muted);
-    font-size: 0.74rem;
-    line-height: 1.65;
-  }
-
-  .project-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-
-  .project-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.8rem;
-    text-decoration: none;
-    color: inherit;
-    transition: all var(--transition);
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-    box-shadow: var(--shadow-card);
-  }
-
-  .project-card:hover {
-    background: var(--bg-card-hover);
-    border-color: var(--border);
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-card-hover);
-  }
-
-  .project-card-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .project-card-header svg {
+  .card-header > svg {
     width: 18px;
     height: 18px;
     color: var(--text-muted);
     transition: color var(--transition);
   }
 
-  .project-card:hover .project-card-header svg { color: var(--accent); }
-
-  .project-card h3 {
-    font-size: 0.92rem;
-    font-weight: 600;
-    letter-spacing: -0.02em;
-    line-height: 1.45;
-  }
-
-  .project-card p {
-    color: var(--text-muted);
-    font-size: 0.75rem;
-    line-height: 1.7;
-  }
+  .card:hover .card-header > svg { color: var(--accent); }
 
   .project-tags {
     display: flex;
@@ -591,7 +500,7 @@
   }
 
   .tag {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     letter-spacing: 0.01em;
     padding: 0.2rem 0.55rem;
     border-radius: 999px;
@@ -606,69 +515,10 @@
     gap: 1rem;
   }
 
-  .paper-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.8rem;
-    text-decoration: none;
-    color: inherit;
-    transition: all var(--transition);
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-    box-shadow: var(--shadow-card);
-  }
-
-  .paper-card:hover {
-    background: var(--bg-card-hover);
-    border-color: var(--border);
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-card-hover);
-  }
-
-  .paper-status {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.6rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-  }
-
-  .paper-status svg {
-    width: 15px;
-    height: 15px;
-    color: var(--accent);
-  }
-
-  .paper-card h3 {
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: -0.02em;
-    line-height: 1.45;
-  }
-
+  .paper-card { gap: 0.8rem; }
+  .paper-card h3 { font-size: 1rem; }
   .paper-card:hover h3 { color: var(--accent); }
-
-  .paper-abstract {
-    color: var(--text-muted);
-    font-size: 0.75rem;
-    line-height: 1.75;
-  }
-
-  .paper-meta {
-    display: flex;
-    justify-content: space-between;
-    gap: 0.8rem;
-    flex-wrap: wrap;
-    font-size: 0.63rem;
-    color: var(--text-muted);
-    margin-top: auto;
-    padding-top: 0.6rem;
-    border-top: 1px solid var(--border);
-  }
+  .paper-card .card-meta { border-top: 1px solid var(--border); }
 
   /* ── INFORMES (RESEARCH) ── */
   .research-intro {
@@ -711,14 +561,14 @@
   }
 
   .wc-label {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--text-muted);
   }
 
   .wc-meta {
-    font-size: 0.63rem;
+    font-size: 0.7rem;
     color: var(--text-muted);
     font-variant-numeric: tabular-nums;
     white-space: nowrap;
@@ -748,7 +598,7 @@
   .wc-words .wc-w:hover { color: var(--accent-hover); opacity: 1; }
 
   .wc-foot {
-    font-size: 0.63rem;
+    font-size: 0.7rem;
     color: var(--text-muted);
     text-align: center;
     padding-top: 0.6rem;
@@ -789,32 +639,10 @@
 
   .research-cta:hover svg { transform: translateX(4px); }
 
-  /* ── CONTACT ── */
-  .contact-section {
-    text-align: center;
-    padding: 6rem 4rem;
-  }
-
-  .contact-text {
-    color: var(--text-muted);
-    font-size: 0.8rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .contact-email {
-    font-size: clamp(0.95rem, 2.2vw, 1.35rem);
-    letter-spacing: -0.02em;
-    color: var(--accent);
-    text-decoration: none;
-    transition: color var(--transition);
-  }
-
-  .contact-email:hover { color: var(--accent-hover); }
-
   footer {
     padding: 1.5rem 4rem;
     text-align: center;
-    font-size: 0.68rem;
+    font-size: 0.72rem;
     color: var(--text-muted);
     border-top: 1px solid var(--border);
   }
@@ -844,11 +672,7 @@
 
   /* ── RESPONSIVE ── */
   @media (max-width: 900px) {
-    .materiales-grid,
-    .video-grid,
-    .project-grid {
-      grid-template-columns: 1fr;
-    }
+    .card-grid { grid-template-columns: 1fr; }
 
     .wordcloud { padding: 1.4rem 1.2rem 1rem; }
     .wc-words { gap: 0.3rem 0.8rem; padding: 1.4rem 0 1rem; }
@@ -858,11 +682,13 @@
   @media (max-width: 768px) {
     .sidebar {
       transform: translateX(-100%);
+      visibility: hidden; /* que el teclado no entre al menú cerrado */
+      transition: transform var(--transition), visibility var(--transition);
       width: 80%;
       max-width: 300px;
     }
 
-    .sidebar.active { transform: translateX(0); }
+    .sidebar.active { transform: translateX(0); visibility: visible; }
     .menu-toggle { display: flex; }
     .main { margin-left: 0; }
 
@@ -882,7 +708,6 @@
     .hero-tags { justify-content: center; }
 
     section { padding: 3.5rem 1.5rem; }
-    .contact-section { padding: 4rem 1.5rem; }
     footer { padding: 1.5rem; }
   }
 
@@ -905,7 +730,16 @@
     height: 2px;
     background: var(--accent);
     z-index: 300;
-    transition: width 0.08s linear, background-color 0.3s ease;
+    transition: width 0.08s linear;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+    .fade-in, .hero-inner { opacity: 1; transform: none; }
   }
 
 </style>
@@ -913,13 +747,13 @@
 <body>
 
 <div class="progress-bar" id="progressBar"></div>
-<div class="menu-toggle" id="menuToggle"><span></span></div>
+<button type="button" class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-controls="sidebar" aria-expanded="false"><span></span></button>
 <div class="overlay" id="overlay"></div>
 
 <!-- ── SIDEBAR ── -->
 <nav class="sidebar" id="sidebar">
   <div class="sidebar-header">
-    <h1 class="sidebar-name">Joaquín Martínez</h1>
+    <p class="sidebar-name">Joaquín Martínez</p>
     <p class="sidebar-role">Ingeniero Comercial · Universidad de Chile</p>
   </div>
 
@@ -940,16 +774,16 @@
   </a>
 
   <div class="social-links">
-    <a href="https://github.com/joaquin-vmo" target="_blank" class="social-link" title="GitHub">
+    <a href="https://github.com/joaquin-vmo" target="_blank" class="social-link" title="GitHub" aria-label="GitHub">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
     </a>
-    <a href="https://linkedin.com/in/joaquinmartinezojeda" target="_blank" class="social-link" title="LinkedIn">
+    <a href="https://linkedin.com/in/joaquinmartinezojeda" target="_blank" class="social-link" title="LinkedIn" aria-label="LinkedIn">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
     </a>
-    <a href="https://youtube.com/@FENVidUchile" target="_blank" class="social-link" title="YouTube">
+    <a href="https://youtube.com/@FENVidUchile" target="_blank" class="social-link" title="YouTube" aria-label="YouTube">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
     </a>
-    <a href="mailto:joamartine@fen.uchile.cl" class="social-link" title="Email">
+    <a href="mailto:joamartine@fen.uchile.cl" class="social-link" title="Email" aria-label="Email">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
     </a>
   </div>
@@ -962,7 +796,6 @@
   <section id="home" class="hero" style="border-top: none;">
     <div class="hero-inner">
       <div class="profile-photo-wrapper">
-        <!-- Reemplaza "foto.jpg" con tu foto de perfil -->
         <img src="material/pf.jpg" alt="Joaquín Martínez" class="profile-photo">
       </div>
       <div class="hero-text">
@@ -986,10 +819,10 @@
       <span class="section-number">01</span>
       <h2 class="section-title">Proyectos</h2>
     </div>
-    <div class="project-grid fade-in">
+    <div class="card-grid fade-in">
 
-      <a href="material/licitaciones_mineria.pdf" target="_blank" class="project-card">
-        <div class="project-card-header">
+      <a href="material/licitaciones_mineria.pdf" target="_blank" class="card">
+        <div class="card-header">
           <h3>Licitaciones en Minería Chilena</h3>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </div>
@@ -1001,8 +834,8 @@
         </div>
       </a>
 
-      <a href="material/bvar.pdf" target="_blank" class="project-card">
-        <div class="project-card-header">
+      <a href="material/bvar.pdf" target="_blank" class="card">
+        <div class="card-header">
           <h3>Aplicación de BVAR</h3>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </div>
@@ -1013,8 +846,8 @@
         </div>
       </a>
 
-      <a href="material/modelo_monitoreo_IA.pdf" target="_blank" class="project-card">
-        <div class="project-card-header">
+      <a href="material/modelo_monitoreo_IA.pdf" target="_blank" class="card">
+        <div class="card-header">
           <h3>Salir a la Pizarra</h3>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </div>
@@ -1026,8 +859,8 @@
         </div>
       </a>
 
-      <a href="https://github.com/joaquin-vmo/calendario_estudio" target="_blank" class="project-card">
-        <div class="project-card-header">
+      <a href="https://github.com/joaquin-vmo/calendario_estudio" target="_blank" class="card">
+        <div class="card-header">
           <h3>Calendario de Estudio</h3>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
         </div>
@@ -1052,20 +885,20 @@
 
     <div class="papers-list fade-in">
 
-      <a href="material/papers/2026-08_entrada_competencia_local.pdf" target="_blank" class="paper-card">
-        <div class="paper-status">
+      <a href="material/papers/2026-08_entrada_competencia_local.pdf" target="_blank" class="card paper-card">
+        <div class="card-type">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
           Borrador · Agosto 2026
         </div>
         <h3>Efectos competitivos de la entrada y dispersión de precios en mercados locales</h3>
-        <p class="paper-abstract">Estima el efecto disciplinador sobre los precios que induce la entrada de una nueva estación de servicio en un mercado local. Con bases de datos administrativas, oficiales y públicamente disponibles se aproximan los márgenes de venta y se identifican entradas; mediante un estudio de eventos se captura la respuesta en precios y márgenes frente a la llegada de un nuevo competidor. Se encuentra un efecto causal cercano al 7 % sobre el margen de venta en la gasolina de 93 octanos y al 6 % en el diésel, con un efecto marcadamente menor en 97 octanos. El efecto se atenúa con la distancia y deja de distinguirse de cero entre los tres y los cuatro kilómetros. El precio mínimo del mercado cae 0,85 % en 93 octanos y 1,00 % en diésel, mientras que el máximo no se mueve de forma distinguible de cero: el desplazamiento de la acumulada se concentra en la mitad inferior. La ganancia de la entrada la captura entonces de manera desproporcionada el consumidor que compara precios.</p>
+        <p>Estima el efecto disciplinador sobre los precios que induce la entrada de una nueva estación de servicio en un mercado local. Con bases de datos administrativas, oficiales y públicamente disponibles se aproximan los márgenes de venta y se identifican entradas; mediante un estudio de eventos se captura la respuesta en precios y márgenes frente a la llegada de un nuevo competidor. Se encuentra un efecto causal cercano al 7 % sobre el margen de venta en la gasolina de 93 octanos y al 6 % en el diésel, con un efecto marcadamente menor en 97 octanos. El efecto se atenúa con la distancia y deja de distinguirse de cero entre los tres y los cuatro kilómetros. El precio mínimo del mercado cae 0,85 % en 93 octanos y 1,00 % en diésel, mientras que el máximo no se mueve de forma distinguible de cero: el desplazamiento de la acumulada se concentra en la mitad inferior. La ganancia de la entrada la captura entonces de manera desproporcionada el consumidor que compara precios.</p>
         <div class="project-tags">
           <span class="tag">Organización Industrial</span>
           <span class="tag">Estudio de Eventos</span>
           <span class="tag">Dispersión de Precios</span>
           <span class="tag">Combustibles</span>
         </div>
-        <div class="paper-meta">
+        <div class="card-meta">
           <span>JEL: L13, L81, L11, D83</span>
           <span>38 páginas · PDF</span>
         </div>
@@ -1083,7 +916,7 @@
       <h2 class="section-title">Informes de Research</h2>
     </div>
 
-    <p class="research-intro fade-in">Como associate del <strong>Club de Finanzas de la Universidad de Chile</strong> armé desde cero el equipo de estudios. Como <strong>Head of Research</strong> del grupo dirijo la publicación de informes de coyuntura macroeconómica y de mercados. Todos se publican en el <a href="https://joaquin-vmo.github.io/club-finanzas/" target="_blank" rel="noopener">repositorio del Club</a> abajo, a la fecha los términos más utilizados son los siguientes:</p>
+    <p class="research-intro fade-in">Como associate del <strong>Club de Finanzas de la Universidad de Chile</strong> armé desde cero el equipo de estudios. Como <strong>Head of Research</strong> del grupo dirijo la publicación de informes de coyuntura macroeconómica y de mercados. Todos se publican en el <a href="https://club-de-finanzas-fen.github.io/" target="_blank" rel="noopener">repositorio del Club</a> abajo, a la fecha los términos más utilizados son los siguientes:</p>
 
     <div class="wordcloud fade-in">
       <div class="wc-head">
@@ -1135,7 +968,7 @@
       <p class="wc-foot">Términos más frecuentes en los informes publicados a la fecha.</p>
     </div>
 
-    <a href="https://joaquin-vmo.github.io/club-finanzas/" target="_blank" rel="noopener" class="research-cta fade-in">
+    <a href="https://club-de-finanzas-fen.github.io/" target="_blank" rel="noopener" class="research-cta fade-in">
       <span class="research-cta-text">
         <strong>Ver todos los informes</strong>
         <span>Repositorio de research del Club de Finanzas FEN UChile</span>
@@ -1152,81 +985,81 @@
       <span class="section-number">04</span>
       <h2 class="section-title">Materiales</h2>
     </div>
-    <div class="materiales-grid fade-in">
+    <div class="card-grid fade-in">
 
-      <a href="material/ayudan_IO.pdf" class="material-card" target="_blank">
-        <div class="material-type">
+      <a href="material/ayudan_IO.pdf" class="card" target="_blank">
+        <div class="card-type">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
           PDF · Ayudantías
         </div>
         <h3>Ayudantías de Organización Industrial</h3>
         <p>Ejercicios de Organización Industrial de cuando era ayudante.</p>
-        <div class="material-meta">
+        <div class="card-meta">
           <span>Organización Industrial · 2024 - 2025</span>
           <span>335 páginas</span>
         </div>
       </a>
 
-      <a href="material/apuntes_ecopol.pdf" class="material-card" target="_blank">
-        <div class="material-type">
+      <a href="material/apuntes_ecopol.pdf" class="card" target="_blank">
+        <div class="card-type">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
           PDF · Apunte
         </div>
         <h3>Apuntes de EcoPol</h3>
         <p>Apuntes de equilibrio general, consumo, teoría de juegos, competencia oligopólica y fallas de mercado.</p>
-        <div class="material-meta">
+        <div class="card-meta">
           <span>Microeconomía · 2026</span>
           <span>119 páginas</span>
         </div>
       </a>
 
-      <a href="material/intro_eco.pdf" class="material-card" target="_blank">
-        <div class="material-type">
+      <a href="material/intro_eco.pdf" class="card" target="_blank">
+        <div class="card-type">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
           PDF · Clases
         </div>
         <h3>Introducción a la Economía</h3>
         <p>Clases para mis tutorías de Economía.</p>
-        <div class="material-meta">
+        <div class="card-meta">
           <span>Introducción a la economía · 2025</span>
           <span>208 páginas</span>
         </div>
       </a>
 
-      <a href="material/global_games.pdf" class="material-card" target="_blank">
-        <div class="material-type">
+      <a href="material/global_games.pdf" class="card" target="_blank">
+        <div class="card-type">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
           PDF · Presentación
         </div>
         <h3>Global Games y Crisis Cambiarias</h3>
         <p>Aplicación de Global Games a crisis cambiarias: el efecto Samba en Brasil 1999.</p>
-        <div class="material-meta">
+        <div class="card-meta">
           <span>Macroeconomía · 2026</span>
           <span>30 páginas</span>
         </div>
       </a>
 
-      <a href="https://github.com/joaquin-vmo/finanzas_internacionales_o2026" class="material-card" target="_blank">
-        <div class="material-type">
+      <a href="https://github.com/joaquin-vmo/finanzas_internacionales_o2026" class="card" target="_blank">
+        <div class="card-type">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
           Repositorio · GitHub
         </div>
         <h3>Finanzas Internacionales — Ayudantías y código</h3>
         <p>Material de ayudantías del curso y códigos en R aplicados a macroeconomía abierta.</p>
-        <div class="material-meta">
+        <div class="card-meta">
           <span>Finanzas Internacionales · 2026</span>
           <span>GitHub</span>
         </div>
       </a>
 
-      <a href="https://joaquin-vmo.github.io/modelo_IS_LM/" class="material-card" target="_blank">
-        <div class="material-type">
+      <a href="https://joaquin-vmo.github.io/modelo_IS_LM/" class="card" target="_blank">
+        <div class="card-type">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
           Web · Interactivo
         </div>
         <h3>Modelo IS-LM — Laboratorio interactivo</h3>
         <p>Gráficos dinámicos del modelo IS-LM-BP de economía abierta (Mundell–Fleming), el overshooting de Dornbusch y la curva J / Marshall–Lerner.</p>
-        <div class="material-meta">
+        <div class="card-meta">
           <span>Finanzas Internacionales · 2026</span>
           <span>Página web</span>
         </div>
@@ -1251,10 +1084,10 @@
       <p>Videos donde enseño economía en el canal de FenVID, para estudiantes de pregrado. <a href="https://www.youtube.com/@FENVidUchile" target="_blank">Visitar canal →</a></p>
     </div>
 
-    <div class="video-grid fade-in">
+    <div class="card-grid fade-in">
 
-      <a href="https://youtu.be/NgxHDSLMPbo" target="_blank" class="video-card">
-        <div class="video-card-header">
+      <a href="https://youtu.be/NgxHDSLMPbo" target="_blank" class="card">
+        <div class="card-header">
           <div class="play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
           <span class="video-duration">17 min</span>
         </div>
@@ -1262,8 +1095,8 @@
         <p>Un approach a Equilibrio General con Producción para Pregrado</p>
       </a>
 
-      <a href="https://youtu.be/p7UcJlSK_qY" target="_blank" class="video-card">
-        <div class="video-card-header">
+      <a href="https://youtu.be/p7UcJlSK_qY" target="_blank" class="card">
+        <div class="card-header">
           <div class="play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
           <span class="video-duration">16 min</span>
         </div>
@@ -1271,8 +1104,8 @@
         <p>Un breve modelo de diferenciación horizontal, con funciones de respuesta y equilibrio de máxima diferenciación</p>
       </a>
 
-      <a href="https://youtu.be/DwXYRu7sPEA" target="_blank" class="video-card">
-        <div class="video-card-header">
+      <a href="https://youtu.be/DwXYRu7sPEA" target="_blank" class="card">
+        <div class="card-header">
           <div class="play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
           <span class="video-duration">14 min</span>
         </div>
@@ -1295,24 +1128,19 @@
   const sidebar = document.getElementById('sidebar');
   const overlay = document.getElementById('overlay');
 
-  menuToggle.addEventListener('click', () => {
-    menuToggle.classList.toggle('active');
-    sidebar.classList.toggle('active');
-    overlay.classList.toggle('active');
-  });
+  function setMenu(open) {
+    menuToggle.classList.toggle('active', open);
+    sidebar.classList.toggle('active', open);
+    overlay.classList.toggle('active', open);
+    menuToggle.setAttribute('aria-expanded', open);
+    menuToggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+  }
 
-  overlay.addEventListener('click', () => {
-    menuToggle.classList.remove('active');
-    sidebar.classList.remove('active');
-    overlay.classList.remove('active');
-  });
-
+  menuToggle.addEventListener('click', () => setMenu(!sidebar.classList.contains('active')));
+  overlay.addEventListener('click', () => setMenu(false));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
   document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => {
-      menuToggle.classList.remove('active');
-      sidebar.classList.remove('active');
-      overlay.classList.remove('active');
-    });
+    link.addEventListener('click', () => setMenu(false));
   });
 
   // Scroll progress bar
@@ -1329,11 +1157,10 @@
 
     let current = '';
     sections.forEach(section => {
-      const sectionTop = section.offsetTop - 100;
-      if (scrollY >= sectionTop) {
-        current = section.getAttribute('id');
-      }
+      if (scrollTop >= section.offsetTop - 100) current = section.id;
     });
+    // al llegar al fondo, la última sección puede ser más corta que la pantalla
+    if (scrollTop >= docHeight - 2) current = sections[sections.length - 1].id;
 
     navLinks.forEach(link => {
       link.classList.remove('active');
@@ -1353,15 +1180,6 @@
   }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
 
   document.querySelectorAll('.fade-in').forEach(el => fadeObserver.observe(el));
-
-  // Smooth scroll
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (target) target.scrollIntoView({ behavior: 'smooth' });
-    });
-  });
 </script>
 
 </body>
