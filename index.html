@@ -3,1162 +3,186 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Joaquín Martínez | Perfil</title>
+<title>Joaquín Martínez</title>
 <meta name="description" content="Joaquín Martínez, Ingeniero Comercial (Universidad de Chile). Libre competencia, organización industrial y finanzas corporativas: tesis, proyectos, material docente e informes.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://joaquin-vmo.github.io/">
 <meta property="og:image" content="https://joaquin-vmo.github.io/og.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta property="og:title" content="Joaquín Martínez | Perfil">
+<meta property="og:title" content="Joaquín Martínez">
 <meta property="og:description" content="Libre competencia, organización industrial y finanzas corporativas: tesis, proyectos, material docente e informes.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231e1e2e'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='16' font-weight='700' fill='%2389b4fa' text-anchor='middle'%3EJM%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-<noscript><style>.fade-in { opacity: 1 !important; transform: none !important; }</style></noscript>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23fff'/%3E%3Ctext x='16' y='22' font-family='sans-serif' font-size='15' fill='%23111' text-anchor='middle'%3EJM%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/computer-modern@0.1.3/cmu-sans-serif.css">
 <style>
-  /* Catppuccin Mocha — tema único */
-  :root {
-    color-scheme: dark;
-    --bg: #1e1e2e;            /* base */
-    --bg-nav: #181825;        /* mantle */
-    --bg-card: #313244;       /* surface0 */
-    --bg-card-hover: #45475a; /* surface1 */
-    --text: #cdd6f4;          /* text */
-    --text-muted: #a6adc8;    /* subtext0 */
-    --accent: #89b4fa;        /* blue */
-    --accent-hover: #b4befe;  /* lavender */
-    --accent-soft: rgba(137, 180, 250, 0.15);
-    --border: #45475a;        /* surface1 */
-    --red: #f38ba8;           /* red */
-    --red-soft: rgba(243, 139, 168, 0.15);
-    --red-fg: #1e1e2e;
-    --radius: 6px;
-    --transition: 0.3s ease;
+  :root { color-scheme: light; --paper: #fff; --ink: #1f2f38; --muted: #5a6670; --rule: #d5e1e7; --fne: #5c7b8e; --fne-dark: #3f5a6b; --fne-soft: #eef2f3; }
+
+  html { background: var(--paper); color: var(--ink); font: 1.0625rem/1.55 "CMU Sans Serif", "Latin Modern Sans", Helvetica, Arial, sans-serif; }
+  body { margin: 0; padding: 2.75rem 1.25rem 4rem; }
+  .page { max-width: 36rem; margin: 0 auto; }
+
+  h1 { font-size: 1.85rem; font-weight: 700; line-height: 1.15; margin: 0 0 .9rem; }
+  h2 { font-size: .85rem; font-weight: 700; margin: 0 0 1.1rem; padding-top: 1.1rem; border-top: 1px solid var(--rule); color: var(--fne-dark); text-transform: uppercase; letter-spacing: .06em; }
+  h3 { font-size: 1.1rem; font-weight: 500; line-height: 1.35; margin: 0; }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0; padding: 0; list-style: none; }
+  a { color: inherit; text-underline-offset: .15em; text-decoration-thickness: 1px; text-decoration-color: #92b6c7; }
+  a:hover { color: var(--fne); text-decoration-color: currentColor; }
+  ::selection { background: var(--fne-soft); }
+
+  body { border-top: 4px solid var(--fne); }
+  .role { margin: 0; }
+  .links .cv { border: 1.5px solid var(--fne); color: var(--fne-dark); padding: .3rem .9rem; margin-right: 1rem; text-decoration: none; }
+  .links a.cv::after { content: none; }
+  .links .cv:hover { background: var(--fne); color: #fff; }
+  .links, .nav { display: flex; flex-wrap: wrap; }
+  .links { margin: 1.2rem 0 1.8rem; align-items: center; }
+  .links a:not(:last-child)::after, .nav a:not(:last-child)::after { content: "\00b7"; margin: 0 .55em; color: var(--muted); display: inline-block; }
+  .fields { color: var(--muted); }
+  .nav { font-size: .9rem; margin-top: 1.4rem; }
+  .nav a { text-decoration: none; }
+
+  section { margin-top: 2.6rem; }
+  .paper + .paper { margin-top: 1.7rem; }
+  .where { margin: .25rem 0 0; font-size: .93rem; color: var(--muted); }
+  .abs summary { cursor: pointer; font-size: .8rem; font-weight: 700; color: var(--muted); padding: .25rem 0; }
+  .abs summary:hover { color: var(--fne); }
+  .abs p { background: var(--fne-soft); border-left: 3px solid var(--fne); padding: .8rem 1rem; font-size: .95rem; text-align: justify; hyphens: auto; }
+
+  .dated li { margin-bottom: .7rem; }
+  .dated .yr { display: block; color: var(--muted); font-size: .88rem; font-variant-numeric: tabular-nums; }
+  .dated small { display: block; color: var(--muted); font-size: .9rem; }
+  @media (min-width: 40em) {
+    .dated li { display: grid; grid-template-columns: 5.2rem 1fr; column-gap: .75rem; margin-bottom: .55rem; }
+  }
+
+  footer { margin-top: 3.5rem; padding-top: 1.1rem; border-top: 1px solid var(--rule); font-size: .93rem; color: var(--muted); }
+
+  /* pantallas anchas: los títulos de sección pasan al margen izquierdo */
+  @media (min-width: 60em) {
+    html { font-size: 1.125rem; }
+    body { padding-top: 4.5rem; }
+    .page { max-width: 47.5rem; }
+    h1 { font-size: 2.3rem; }
+    header, section, footer { display: grid; grid-template-columns: 9rem minmax(0, 1fr); column-gap: 2.5rem; }
+    header > *, section > div, footer > * { grid-column: 2; }
+    section { margin-top: 3.4rem; }
+    section > h2 { grid-column: 1; border: 0; padding: .3rem 0 0; margin: 0; text-align: right; }
+    footer { border: 0; padding-top: 0; }
+    footer > p { border-top: 1px solid var(--rule); padding-top: 1.1rem; }
   }
-
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-
-  body {
-    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.7;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  ::selection {
-    background: var(--accent);
-    color: var(--bg);
-  }
-
-  /* ── SIDEBAR NAV ── */
-  .sidebar {
-    width: 280px;
-    background: var(--bg-nav);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    padding: 2.5rem 2rem;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
-    transition: transform var(--transition);
-  }
-
-  .sidebar-header { margin-bottom: 2.5rem; }
-
-  .sidebar-name {
-    font-size: 1.15rem;
-    font-weight: 700;
-    letter-spacing: -0.03em;
-    color: var(--text);
-    margin-bottom: 0.4rem;
-  }
-
-  .sidebar-role {
-    font-size: 0.72rem;
-    color: var(--text-muted);
-    letter-spacing: -0.01em;
-    line-height: 1.6;
-  }
-
-  .nav-links { list-style: none; flex: 1; }
-  .nav-links li { margin-bottom: 0.4rem; }
-
-  .nav-links a {
-    display: block;
-    padding: 0.55rem 0.8rem;
-    text-decoration: none;
-    color: var(--text-muted);
-    font-size: 0.78rem;
-    font-weight: 400;
-    border-radius: var(--radius);
-    transition: all var(--transition);
-    position: relative;
-  }
-
-  .nav-links a:hover,
-  .nav-links a.active {
-    color: var(--text);
-    background: var(--bg-card);
-  }
-
-  .nav-links a.active::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 3px;
-    height: 60%;
-    background: var(--accent);
-    border-radius: 2px;
-  }
-
-  .nav-divider {
-    height: 1px;
-    background: var(--border);
-    margin: 1rem 0;
-  }
-
-  .cv-download {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    padding: 0.65rem 1rem;
-    background: var(--accent);
-    color: var(--bg) !important;
-    text-decoration: none;
-    font-size: 0.72rem;
-    font-weight: 600;
-    letter-spacing: -0.01em;
-    border-radius: var(--radius);
-    transition: all var(--transition);
-    margin-bottom: 1.5rem;
-  }
-
-  .cv-download:hover {
-    background: var(--accent-hover);
-    transform: translateY(-1px);
-  }
-
-  .cv-download svg { width: 15px; height: 15px; }
-
-  .social-links {
-    display: flex;
-    gap: 0.6rem;
-    margin-top: auto;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--border);
-  }
-
-  .social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 36px;
-    height: 36px;
-    border-radius: var(--radius);
-    border: 1px solid var(--border);
-    color: var(--text-muted);
-    text-decoration: none;
-    transition: all var(--transition);
-  }
-
-  .social-link:hover {
-    color: var(--accent);
-    border-color: var(--accent);
-    transform: translateY(-2px);
-  }
-
-  .social-link svg { width: 16px; height: 16px; }
-
-  /* ── MOBILE MENU ── */
-  .menu-toggle {
-    display: none;
-    position: fixed;
-    top: 1.2rem;
-    right: 1.2rem;
-    z-index: 200;
-    width: 42px;
-    height: 42px;
-    padding: 0;
-    cursor: pointer;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    justify-content: center;
-    align-items: center;
-  }
-
-  :focus-visible {
-    outline: 2px solid var(--accent);
-    outline-offset: 2px;
-  }
-
-  .menu-toggle span {
-    display: block;
-    width: 18px;
-    height: 2px;
-    background: var(--text);
-    position: relative;
-    transition: all var(--transition);
-  }
-
-  .menu-toggle span::before,
-  .menu-toggle span::after {
-    content: '';
-    position: absolute;
-    width: 18px;
-    height: 2px;
-    background: var(--text);
-    transition: all var(--transition);
-  }
-
-  .menu-toggle span::before { transform: translateY(-6px); }
-  .menu-toggle span::after { transform: translateY(6px); }
-  .menu-toggle.active span { background: transparent; }
-  .menu-toggle.active span::before { transform: rotate(45deg); }
-  .menu-toggle.active span::after { transform: rotate(-45deg); }
-
-  /* ── MAIN CONTENT ── */
-  .main {
-    margin-left: 280px;
-    min-height: 100vh;
-  }
-
-  /* ── HERO WITH PROFILE PHOTO ── */
-  .hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    padding: 4rem;
-  }
-
-  .hero-inner {
-    display: flex;
-    align-items: center;
-    gap: 3.5rem;
-    max-width: 800px;
-  }
-
-  .hero-text {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
-  }
-
-  .hero-name {
-    font-size: clamp(1.5rem, 3.2vw, 2.1rem);
-    font-weight: 700;
-    letter-spacing: -0.04em;
-    line-height: 1.25;
-  }
-
-  .hero-title {
-    font-size: 0.78rem;
-    color: var(--accent);
-    font-weight: 500;
-    letter-spacing: -0.01em;
-  }
-
-  .hero-desc {
-    font-size: 0.78rem;
-    color: var(--text-muted);
-    max-width: 520px;
-    line-height: 1.8;
-    margin-top: 0.3rem;
-  }
-
-  .hero-tags {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    margin-top: 0.6rem;
-  }
-
-  .hero-tag {
-    font-size: 0.7rem;
-    letter-spacing: 0.01em;
-    padding: 0.25rem 0.65rem;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    color: var(--text-muted);
-    transition: all var(--transition);
-  }
-
-  .hero-tag:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
-
-  /* ── SECTIONS ── */
-  section {
-    padding: 5rem 4rem;
-    max-width: 1000px;
-    border-top: 1px solid var(--border);
-  }
-
-  .section-header {
-    display: flex;
-    align-items: baseline;
-    gap: 1rem;
-    margin-bottom: 3rem;
-  }
-
-  .section-number {
-    font-size: 0.75rem;
-    color: var(--accent);
-    font-weight: 500;
-    font-variant-numeric: tabular-nums;
-  }
-
-  .section-title {
-    font-size: 1.25rem;
-    font-weight: 600;
-    letter-spacing: -0.03em;
-  }
-
-  /* ── TARJETAS (proyectos, papers, materiales, videos) ── */
-  .card-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-
-  .card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.8rem;
-    text-decoration: none;
-    color: inherit;
-    transition: all var(--transition);
-    display: flex;
-    flex-direction: column;
-    gap: 0.7rem;
-  }
-
-  .card:hover {
-    background: var(--bg-card-hover);
-    transform: translateY(-3px);
-  }
-
-  .card h3 {
-    font-size: 0.92rem;
-    font-weight: 600;
-    letter-spacing: -0.02em;
-    line-height: 1.45;
-  }
-
-  .card p {
-    color: var(--text-muted);
-    font-size: 0.75rem;
-    line-height: 1.7;
-  }
-
-  .card-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .card-type {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.7rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-  }
-
-  .card-type svg {
-    width: 15px;
-    height: 15px;
-    color: var(--accent);
-  }
-
-  .card-meta {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 0.8rem;
-    font-size: 0.7rem;
-    color: var(--text-muted);
-    margin-top: auto;
-    padding-top: 0.6rem;
-  }
-
-  /* ── FENVID & PROYECTOS ── */
-  .fenvid-header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 2.5rem;
-  }
-
-  .fenvid-header p {
-    color: var(--text-muted);
-    font-size: 0.78rem;
-    line-height: 1.7;
-  }
-
-  .fenvid-header a {
-    color: var(--accent);
-    text-decoration: none;
-  }
-
-  .fenvid-header a:hover { color: var(--accent-hover); }
-
-  .yt-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    background: var(--red);
-    color: var(--red-fg);
-    padding: 0.3rem 0.7rem;
-    font-size: 0.7rem;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    font-weight: 600;
-    border-radius: var(--radius);
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
-
-  .yt-badge svg { width: 13px; height: 13px; }
-
-  /* el triángulo se recorta con el color del badge, no en blanco fijo */
-  .yt-badge svg polygon { fill: var(--red); }
-
-  .play-icon {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    background: var(--red-soft);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--red);
-    flex-shrink: 0;
-  }
-
-  .play-icon svg { width: 14px; height: 14px; }
-
-  .video-duration {
-    font-size: 0.7rem;
-    color: var(--text-muted);
-    letter-spacing: 0.03em;
-  }
-
-  .card-header > svg {
-    width: 18px;
-    height: 18px;
-    color: var(--text-muted);
-    transition: color var(--transition);
-  }
-
-  .card:hover .card-header > svg { color: var(--accent); }
-
-  .project-tags {
-    display: flex;
-    gap: 0.4rem;
-    flex-wrap: wrap;
-    margin-top: 0.4rem;
-  }
-
-  .tag {
-    font-size: 0.7rem;
-    letter-spacing: 0.01em;
-    padding: 0.2rem 0.55rem;
-    border-radius: 999px;
-    background: var(--accent-soft);
-    color: var(--accent);
-  }
-
-  /* ── WORKING PAPERS ── */
-  .papers-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .paper-card { gap: 0.8rem; }
-  .paper-card h3 { font-size: 1rem; }
-  .paper-card:hover h3 { color: var(--accent); }
-  .paper-card .card-meta { border-top: 1px solid var(--border); }
-
-  /* ── INFORMES (RESEARCH) ── */
-  .research-intro {
-    color: var(--text-muted);
-    font-size: 0.78rem;
-    line-height: 1.75;
-    max-width: 640px;
-    margin-bottom: 2.2rem;
-  }
-
-  .research-intro a {
-    color: var(--accent);
-    text-decoration: none;
-    border-bottom: 1px solid var(--accent-soft);
-    transition: color var(--transition), border-color var(--transition);
-  }
-
-  .research-intro a:hover { color: var(--accent-hover); border-color: var(--accent-hover); }
-
-  .research-intro strong {
-    color: var(--text);
-    font-weight: 600;
-  }
-
-  /* nube de palabras de los informes */
-  .wordcloud {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.8rem 2rem 1.4rem;
-  }
-
-  .wc-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 1rem;
-    padding-bottom: 1.2rem;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .wc-label {
-    font-size: 0.7rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-  }
-
-  .wc-meta {
-    font-size: 0.7rem;
-    color: var(--text-muted);
-    font-variant-numeric: tabular-nums;
-    white-space: nowrap;
-  }
-
-  .wc-words {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    justify-content: center;
-    gap: 0.35rem 1.1rem;
-    padding: 1.8rem 0.5rem 1.4rem;
-  }
-
-  .wc-w {
-    font-size: var(--s);
-    line-height: 1.25;
-    letter-spacing: -0.03em;
-    cursor: default;
-    transition: color var(--transition), opacity var(--transition);
-  }
-
-  .wc-a { color: var(--accent); font-weight: 600; }
-  .wc-b { color: var(--text); font-weight: 500; }
-  .wc-c { color: var(--text-muted); font-weight: 400; opacity: 0.8; }
-  .wc-words:hover .wc-w { opacity: 0.45; }
-  .wc-words .wc-w:hover { color: var(--accent-hover); opacity: 1; }
-
-  .wc-foot {
-    font-size: 0.7rem;
-    color: var(--text-muted);
-    text-align: center;
-    padding-top: 0.6rem;
-    border-top: 1px solid var(--border);
-  }
-
-  .research-cta {
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.5rem;
-    padding: 1.2rem 1.6rem;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    text-decoration: none;
-    color: inherit;
-    transition: all var(--transition);
-  }
-
-  .research-cta:hover {
-    background: var(--bg-card-hover);
-    transform: translateY(-2px);
-  }
-
-  .research-cta-text { display: flex; flex-direction: column; gap: 0.25rem; }
-  .research-cta-text strong { font-size: 0.85rem; font-weight: 600; letter-spacing: -0.02em; }
-  .research-cta-text span { font-size: 0.7rem; color: var(--text-muted); }
-
-  .research-cta svg {
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    color: var(--accent);
-    transition: transform var(--transition);
-  }
-
-  .research-cta:hover svg { transform: translateX(4px); }
-
-  footer {
-    padding: 1.5rem 4rem;
-    text-align: center;
-    font-size: 0.72rem;
-    color: var(--text-muted);
-    border-top: 1px solid var(--border);
-  }
-
-  /* ── ANIMATIONS ── */
-  .fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
-  }
-
-  .fade-in.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  /* Hero entrance animation */
-  .hero-inner {
-    opacity: 0;
-    animation: heroReveal 0.9s ease forwards 0.15s;
-  }
-
-  @keyframes heroReveal {
-    from { opacity: 0; transform: translateY(25px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  /* ── RESPONSIVE ── */
-  @media (max-width: 900px) {
-    .card-grid { grid-template-columns: 1fr; }
-
-    .wordcloud { padding: 1.4rem 1.2rem 1rem; }
-    .wc-words { gap: 0.3rem 0.8rem; padding: 1.4rem 0 1rem; }
-    .wc-w { font-size: calc(var(--s) * 0.82); }
-  }
-
-  @media (max-width: 768px) {
-    .sidebar {
-      transform: translateX(-100%);
-      visibility: hidden; /* que el teclado no entre al menú cerrado */
-      transition: transform var(--transition), visibility var(--transition);
-      width: 80%;
-      max-width: 300px;
-    }
-
-    .sidebar.active { transform: translateX(0); visibility: visible; }
-    .menu-toggle { display: flex; }
-    .main { margin-left: 0; }
-
-    .hero { padding: 4rem 1.5rem; }
-
-    .hero-inner {
-      flex-direction: column;
-      text-align: center;
-      gap: 2rem;
-    }
-
-    .hero-tags { justify-content: center; }
-
-    section { padding: 3.5rem 1.5rem; }
-    footer { padding: 1.5rem; }
-  }
-
-  .overlay {
-    display: none;
-    position: fixed;
-    inset: 0;
-    background: rgba(17, 17, 27, 0.6);
-    z-index: 90;
-  }
-
-  .overlay.active { display: block; }
-
-  /* ── SCROLL PROGRESS ── */
-  .progress-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 2px;
-    background: var(--accent);
-    z-index: 300;
-    transition: width 0.08s linear;
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    html { scroll-behavior: auto; }
-    *, *::before, *::after {
-      animation: none !important;
-      transition: none !important;
-    }
-    .fade-in, .hero-inner { opacity: 1; transform: none; }
-  }
-
 </style>
 </head>
 <body>
+<div class="page">
 
-<div class="progress-bar" id="progressBar"></div>
-<button type="button" class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-controls="sidebar" aria-expanded="false"><span></span></button>
-<div class="overlay" id="overlay"></div>
-
-<!-- ── SIDEBAR ── -->
-<nav class="sidebar" id="sidebar">
-  <div class="sidebar-header">
-    <p class="sidebar-name">Joaquín Martínez</p>
-    <p class="sidebar-role">Ingeniero Comercial · Universidad de Chile</p>
+<header>
+  <h1>Joaquín Martínez</h1>
+  <p class="role">Ingeniero Comercial, Universidad de Chile<br>Magíster en Análisis Económico (en curso), Universidad de Chile</p>
+  <p class="links">
+    <a class="cv" href="mailto:joamartine@fen.uchile.cl?subject=Solicitud%20de%20CV">CV bajo solicitud</a>
+    <a href="mailto:joamartine@fen.uchile.cl">joamartine@fen.uchile.cl</a>
+    <a href="https://github.com/joaquin-vmo">GitHub</a>
+    <a href="https://linkedin.com/in/joaquinmartinezojeda">LinkedIn</a>
+  </p>
+  <div>
+    <p>Ingeniero Comercial licenciado en Ciencias Económicas. Actualmente curso el Magíster en Análisis Económico en la Universidad de Chile a la vez que me desempeño como asistente de investigación en Bering y el Departamento de Economía de la U. Chile.</p>
+    <p class="fields">Áreas: libre competencia, organización industrial, finanzas corporativas.</p>
   </div>
+  <nav class="nav">
+    <a href="#tesis">Tesis</a><a href="#proyectos">Proyectos</a><a href="#materiales">Materiales</a><a href="#videos">Videos</a><a href="#informes">Informes</a>
+  </nav>
+</header>
 
-  <ul class="nav-links">
-    <li><a href="#home" class="active">Inicio</a></li>
-    <li><a href="#tesis">Tesis</a></li>
-    <li><a href="#proyectos">Proyectos</a></li>
-    <li><a href="#materiales">Materiales</a></li>
-    <li><a href="#fenvid">FenVID</a></li>
-    <li><a href="#informes">Informes</a></li>
-  </ul>
+<main>
 
-  <div class="nav-divider"></div>
-
-  <a href="mailto:joamartine@fen.uchile.cl?subject=Solicitud%20de%20CV" class="cv-download">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15V3m0 12l-4-4m4 4l4-4"/><path d="M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
-    CV bajo solicitud
-  </a>
-
-  <div class="social-links">
-    <a href="https://github.com/joaquin-vmo" target="_blank" rel="noopener" class="social-link" title="GitHub" aria-label="GitHub">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-    </a>
-    <a href="https://linkedin.com/in/joaquinmartinezojeda" target="_blank" rel="noopener" class="social-link" title="LinkedIn" aria-label="LinkedIn">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-    </a>
-    <a href="https://www.youtube.com/@FENVidUchile" target="_blank" rel="noopener" class="social-link" title="YouTube" aria-label="YouTube">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-    </a>
-    <a href="mailto:joamartine@fen.uchile.cl" class="social-link" title="Email" aria-label="Email">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-    </a>
-  </div>
-</nav>
-
-<!-- ── MAIN ── -->
-<main class="main">
-
-  <!-- HERO -->
-  <section id="home" class="hero" style="border-top: none;">
-    <div class="hero-inner">
-      <div class="hero-text">
-        <h1 class="hero-name">Joaquín Martínez</h1>
-        <p class="hero-title">Ingeniero Comercial · Universidad de Chile</p>
-        <p class="hero-desc">Ingeniero Comercial licenciado en Ciencias Económicas. Me interesan la libre competencia, la organización industrial y las finanzas corporativas. Actualmente estoy cursando el Magíster en Análisis Económico en la Universidad de Chile a la vez que me desempeño como asistente de investigación en Bering y el Departamento de Economía de la U. Chile.</p>
-        <div class="hero-tags">
-          <span class="hero-tag">Libre Competencia</span>
-          <span class="hero-tag">Organización Industrial</span>
-          <span class="hero-tag">Finanzas Corporativas</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════ -->
-  <!-- SECCIÓN 01: TESIS              -->
-  <!-- ══════════════════════════════ -->
-  <section id="tesis">
-    <div class="section-header fade-in">
-      <span class="section-number">01</span>
-      <h2 class="section-title">Tesis</h2>
-    </div>
-
-    <div class="papers-list fade-in">
-
-      <a href="material/papers/2026-08_entrada_competencia_local.pdf" target="_blank" rel="noopener" class="card paper-card">
-        <div class="card-type">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-          Borrador · Octubre 2026
-        </div>
-        <h3>Efectos de la entrada y regulación sobre la competencia en el mercado de combustibles</h3>
+<section id="tesis">
+  <h2>Tesis</h2>
+  <div>
+    <article class="paper">
+      <h3><a href="material/papers/2026-08_entrada_competencia_local.pdf">Efectos de la entrada y regulación sobre la competencia en el mercado de combustibles</a></h3>
+      <p class="where">Borrador, octubre 2026 · 49 pp. · JEL: L13, L81, L11, D83</p>
+      <details class="abs">
+        <summary>Resumen</summary>
         <p>Estima el efecto disciplinador sobre los precios que induce la apertura de una nueva estación de bencina. Utilizando bases de datos oficiales y públicamente disponibles se identifican precios y entradas. Mediante un estudio de eventos se captura la respuesta en menores precios ante la entrada de una competidora. Se encuentra un efecto causal cercano al 0,4 % sobre el precio en la gasolina de 93 octanos y al 0,6 % en el diésel, del orden de cuatro pesos por litro, equivalente a un 5,6 % y un 5,2 % del margen de venta, y un efecto marcadamente menor en la gasolina de 97 octanos. El efecto se atenúa con la distancia y deja de distinguirse de cero entre los tres y los cuatro kilómetros, marcando así un mercado relevante geográfico. Aprovechando los días en que el costo mayorista con MEPCO no cambia, se muestra que el mismo umbral aparece sin usar entradas, ya que una estación de otra marca a menos de un kilómetro responde a los cambios de precio de una rival con más del doble de probabilidad que una a entre cinco y diez kilómetros, y la respuesta se anula desde los tres kilómetros. Las estaciones ex-ante más baratas son las que concentran la reducción en el precio. La ganancia de la entrada la captura entonces de manera desproporcionada el consumidor que compara activamente precios.</p>
-        <div class="project-tags">
-          <span class="tag">Organización Industrial</span>
-          <span class="tag">Estudio de Eventos</span>
-          <span class="tag">Dispersión de Precios</span>
-          <span class="tag">Combustibles</span>
-        </div>
-        <div class="card-meta">
-          <span>JEL: L13, L81, L11, D83</span>
-          <span>49 páginas · PDF</span>
-        </div>
-      </a>
+      </details>
+    </article>
+  </div>
+</section>
 
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════ -->
-  <!-- SECCIÓN 02: PROYECTOS          -->
-  <!-- ══════════════════════════════ -->
-  <section id="proyectos">
-    <div class="section-header fade-in">
-      <span class="section-number">02</span>
-      <h2 class="section-title">Proyectos</h2>
-    </div>
-    <div class="card-grid fade-in">
-
-      <a href="material/licitaciones_mineria.pdf" target="_blank" rel="noopener" class="card">
-        <div class="card-header">
-          <h3>Licitaciones en Minería Chilena</h3>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
-        </div>
+<section id="proyectos">
+  <h2>Proyectos</h2>
+  <div>
+    <article class="paper">
+      <h3><a href="material/licitaciones_mineria.pdf">Licitaciones en Minería Chilena</a></h3>
+      <details class="abs">
+        <summary>Resumen</summary>
         <p>Subasta de primer precio con firmas asimétricas: juego bayesiano estático entre contratistas grandes y pequeños, con solución numérica y extensiones sobre subdivisión de proyectos y economías de escala.</p>
-        <div class="project-tags">
-          <span class="tag">Organización Industrial</span>
-          <span class="tag">Teoría de Subastas</span>
-          <span class="tag">Minería</span>
-        </div>
-      </a>
-
-      <a href="material/bvar.pdf" target="_blank" rel="noopener" class="card">
-        <div class="card-header">
-          <h3>Aplicación de BVAR</h3>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
-        </div>
-        <p>Replicación de Eterovic y Eterovic (2022) para 2025. Descomposición de shocks estructurales para la curva de rendimiento en Chile</p>
-        <div class="project-tags">
-          <span class="tag">Macroeconomía</span>
-          <span class="tag">Matlab</span>
-        </div>
-      </a>
-
-      <a href="material/modelo_monitoreo_IA.pdf" target="_blank" rel="noopener" class="card">
-        <div class="card-header">
-          <h3>Salir a la Pizarra</h3>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
-        </div>
+      </details>
+    </article>
+    <article class="paper">
+      <h3><a href="material/bvar.pdf">Aplicación de BVAR</a></h3>
+      <details class="abs">
+        <summary>Resumen</summary>
+        <p>Replicación de Eterovic y Eterovic (2022) para 2025. Descomposición de shocks estructurales para la curva de rendimiento en Chile.</p>
+      </details>
+    </article>
+    <article class="paper">
+      <h3><a href="material/modelo_monitoreo_IA.pdf">Salir a la Pizarra</a></h3>
+      <details class="abs">
+        <summary>Resumen</summary>
         <p>Modelo de monitoreo docente bajo IA generativa. Distingue el efecto disuasivo y pedagógico del monitoreo en el esfuerzo del estudiante.</p>
-        <div class="project-tags">
-          <span class="tag">Teoría Económica</span>
-          <span class="tag">Educación</span>
-          <span class="tag">IA Generativa</span>
-        </div>
-      </a>
-
-      <a href="https://github.com/joaquin-vmo/calendario_estudio" target="_blank" rel="noopener" class="card">
-        <div class="card-header">
-          <h3>Calendario de Estudio</h3>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
-        </div>
+      </details>
+    </article>
+    <article class="paper">
+      <h3><a href="https://github.com/joaquin-vmo/calendario_estudio">Calendario de Estudio</a></h3>
+      <details class="abs">
+        <summary>Resumen</summary>
         <p>Generador de plan de estudio con repetición espaciada. Distribuye repasos automáticamente según el tiempo disponible antes del examen.</p>
-        <div class="project-tags">
-          <span class="tag">Python</span>
-          <span class="tag">Open source</span>
-        </div>
-      </a>
+      </details>
+    </article>
+  </div>
+</section>
 
-    </div>
-  </section>
+<section id="materiales">
+  <h2>Materiales</h2>
+  <div>
+    <ul class="dated">
+      <li><span class="yr">2026</span><span><a href="https://colab.research.google.com/drive/1B1VjEHHWHZAODdEdC4ky40_SSyOOgPHn">Tutorial de Estimación de Demanda</a> (Colab)<small>Métodos Empíricos en Libre Competencia y Regulación</small></span></li>
+      <li><span class="yr">2026</span><span><a href="material/apuntes_ecopol.pdf">Apuntes de EcoPol</a> (PDF, 119 pp.)<small>Equilibrio general, consumo, teoría de juegos, competencia oligopólica y fallas de mercado</small></span></li>
+      <li><span class="yr">2026</span><span><a href="material/global_games.pdf">Global Games y Crisis Cambiarias</a> (PDF, 30 pp.)<small>El efecto Samba en Brasil, 1999</small></span></li>
+      <li><span class="yr">2026</span><span><a href="https://github.com/joaquin-vmo/finanzas_internacionales_o2026">Finanzas Internacionales: ayudantías y código</a> (GitHub)<small>Códigos en R aplicados a macroeconomía abierta</small></span></li>
+      <li><span class="yr">2026</span><span><a href="https://joaquin-vmo.github.io/modelo_IS_LM/">Modelo IS-LM: laboratorio interactivo</a><small>IS-LM-BP (Mundell–Fleming), overshooting de Dornbusch y curva J / Marshall–Lerner</small></span></li>
+      <li><span class="yr">2025</span><span><a href="material/intro_eco.pdf">Introducción a la Economía</a> (PDF, 208 pp.)<small>Clases para mis tutorías de Economía</small></span></li>
+      <li><span class="yr">2024–2025</span><span><a href="material/ayudan_IO.pdf">Ayudantías de Organización Industrial</a> (PDF, 335 pp.)<small>Ejercicios de cuando era ayudante</small></span></li>
+    </ul>
+  </div>
+</section>
 
-  <!-- ══════════════════════════════ -->
-  <!-- SECCIÓN 03: MATERIALES         -->
-  <!-- ══════════════════════════════ -->
-  <section id="materiales">
-    <div class="section-header fade-in">
-      <span class="section-number">03</span>
-      <h2 class="section-title">Materiales</h2>
-    </div>
-    <div class="card-grid fade-in">
+<section id="videos">
+  <h2>Videos</h2>
+  <div>
+    <p>Clases de economía para pregrado en el canal <a href="https://www.youtube.com/@FENVidUchile">FenVID</a>.</p>
+    <ul class="dated">
+      <li><span class="yr">17 min</span><span><a href="https://youtu.be/NgxHDSLMPbo">Caja de Edgeworth 2×2×2</a><small>Un approach a equilibrio general con producción para pregrado</small></span></li>
+      <li><span class="yr">16 min</span><span><a href="https://youtu.be/p7UcJlSK_qY">Modelo de Diferenciación Horizontal</a><small>Funciones de respuesta y equilibrio de máxima diferenciación</small></span></li>
+      <li><span class="yr">14 min</span><span><a href="https://youtu.be/DwXYRu7sPEA">Modigliani &amp; Miller</a><small>Introducción, proposiciones I y II</small></span></li>
+    </ul>
+  </div>
+</section>
 
-      <a href="https://colab.research.google.com/drive/1B1VjEHHWHZAODdEdC4ky40_SSyOOgPHn" class="card" target="_blank" rel="noopener">
-        <div class="card-type">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-          Notebook · Colab
-        </div>
-        <h3>Tutorial de Estimación de Demanda</h3>
-        <p>Tutorial paso a paso de estimación de demanda, con código ejecutable en Google Colab.</p>
-        <div class="card-meta">
-          <span>Métodos Empíricos en Libre Competencia y Regulación · 2026</span>
-          <span>Google Colab</span>
-        </div>
-      </a>
-
-      <a href="material/ayudan_IO.pdf" class="card" target="_blank" rel="noopener">
-        <div class="card-type">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-          PDF · Ayudantías
-        </div>
-        <h3>Ayudantías de Organización Industrial</h3>
-        <p>Ejercicios de Organización Industrial de cuando era ayudante.</p>
-        <div class="card-meta">
-          <span>Organización Industrial · 2024 - 2025</span>
-          <span>335 páginas</span>
-        </div>
-      </a>
-
-      <a href="material/apuntes_ecopol.pdf" class="card" target="_blank" rel="noopener">
-        <div class="card-type">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-          PDF · Apunte
-        </div>
-        <h3>Apuntes de EcoPol</h3>
-        <p>Apuntes de equilibrio general, consumo, teoría de juegos, competencia oligopólica y fallas de mercado.</p>
-        <div class="card-meta">
-          <span>Microeconomía · 2026</span>
-          <span>119 páginas</span>
-        </div>
-      </a>
-
-      <a href="material/intro_eco.pdf" class="card" target="_blank" rel="noopener">
-        <div class="card-type">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-          PDF · Clases
-        </div>
-        <h3>Introducción a la Economía</h3>
-        <p>Clases para mis tutorías de Economía.</p>
-        <div class="card-meta">
-          <span>Introducción a la economía · 2025</span>
-          <span>208 páginas</span>
-        </div>
-      </a>
-
-      <a href="material/global_games.pdf" class="card" target="_blank" rel="noopener">
-        <div class="card-type">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-          PDF · Presentación
-        </div>
-        <h3>Global Games y Crisis Cambiarias</h3>
-        <p>Aplicación de Global Games a crisis cambiarias: el efecto Samba en Brasil 1999.</p>
-        <div class="card-meta">
-          <span>Macroeconomía · 2026</span>
-          <span>30 páginas</span>
-        </div>
-      </a>
-
-      <a href="https://github.com/joaquin-vmo/finanzas_internacionales_o2026" class="card" target="_blank" rel="noopener">
-        <div class="card-type">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          Repositorio · GitHub
-        </div>
-        <h3>Finanzas Internacionales — Ayudantías y código</h3>
-        <p>Material de ayudantías del curso y códigos en R aplicados a macroeconomía abierta.</p>
-        <div class="card-meta">
-          <span>Finanzas Internacionales · 2026</span>
-          <span>GitHub</span>
-        </div>
-      </a>
-
-      <a href="https://joaquin-vmo.github.io/modelo_IS_LM/" class="card" target="_blank" rel="noopener">
-        <div class="card-type">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          Web · Interactivo
-        </div>
-        <h3>Modelo IS-LM — Laboratorio interactivo</h3>
-        <p>Gráficos dinámicos del modelo IS-LM-BP de economía abierta (Mundell–Fleming), el overshooting de Dornbusch y la curva J / Marshall–Lerner.</p>
-        <div class="card-meta">
-          <span>Finanzas Internacionales · 2026</span>
-          <span>Página web</span>
-        </div>
-      </a>
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════ -->
-  <!-- SECCIÓN 04: FENVID (VIDEOS)    -->
-  <!-- ══════════════════════════════ -->
-  <section id="fenvid">
-    <div class="section-header fade-in">
-      <span class="section-number">04</span>
-      <h2 class="section-title">FenVID y Videos</h2>
-    </div>
-
-    <div class="fenvid-header fade-in">
-      <span class="yt-badge">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814z"/><polygon fill="white" points="9.545 15.568 15.818 12 9.545 8.432"/></svg>
-        FenVID
-      </span>
-      <p>Videos donde enseño economía en el canal de FenVID, para estudiantes de pregrado. <a href="https://www.youtube.com/@FENVidUchile" target="_blank" rel="noopener">Visitar canal →</a></p>
-    </div>
-
-    <div class="card-grid fade-in">
-
-      <a href="https://youtu.be/NgxHDSLMPbo" target="_blank" rel="noopener" class="card">
-        <div class="card-header">
-          <div class="play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
-          <span class="video-duration">17 min</span>
-        </div>
-        <h3>Caja de Edgeworth 2x2x2</h3>
-        <p>Un approach a Equilibrio General con Producción para Pregrado</p>
-      </a>
-
-      <a href="https://youtu.be/p7UcJlSK_qY" target="_blank" rel="noopener" class="card">
-        <div class="card-header">
-          <div class="play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
-          <span class="video-duration">16 min</span>
-        </div>
-        <h3>Modelo de Diferenciación Horizontal</h3>
-        <p>Un breve modelo de diferenciación horizontal, con funciones de respuesta y equilibrio de máxima diferenciación</p>
-      </a>
-
-      <a href="https://youtu.be/DwXYRu7sPEA" target="_blank" rel="noopener" class="card">
-        <div class="card-header">
-          <div class="play-icon"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></div>
-          <span class="video-duration">14 min</span>
-        </div>
-        <h3>Modigliani & Miller</h3>
-        <p>Introducción M&M, proposiciones I y II.</p>
-      </a>
-
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════ -->
-  <!-- SECCIÓN 05: INFORMES           -->
-  <!-- ══════════════════════════════ -->
-  <section id="informes">
-    <div class="section-header fade-in">
-      <span class="section-number">05</span>
-      <h2 class="section-title">Informes de Research</h2>
-    </div>
-
-    <p class="research-intro fade-in">Como associate del <strong>Club de Finanzas de la Universidad de Chile</strong> armé desde cero el equipo de estudios. Como <strong>Head of Research</strong> del grupo dirigí la publicación de informes de coyuntura macroeconómica y de mercados. Todos se publican en el <a href="https://club-de-finanzas-fen.github.io/" target="_blank" rel="noopener">repositorio del Club</a> abajo, a la fecha los términos más utilizados son los siguientes:</p>
-
-    <div class="wordcloud fade-in">
-      <div class="wc-head">
-        <span class="wc-label">Temas recurrentes</span>
-        <span class="wc-meta">10 informes · 2026</span>
-      </div>
-      <div class="wc-words">
-      <span class="wc-w wc-b" style="--s:1.54rem" title="23 menciones">inversión</span>
-      <span class="wc-w wc-c" style="--s:1.04rem" title="12 menciones">energía</span>
-      <span class="wc-w wc-b" style="--s:1.38rem" title="19 menciones">flujos</span>
-      <span class="wc-w wc-b" style="--s:1.65rem" title="26 menciones">costos</span>
-      <span class="wc-w wc-c" style="--s:1.19rem" title="15 menciones">PIB</span>
-      <span class="wc-w wc-c" style="--s:0.91rem" title="10 menciones">inflación</span>
-      <span class="wc-w wc-c" style="--s:0.98rem" title="11 menciones">gasto</span>
-      <span class="wc-w wc-c" style="--s:1.24rem" title="16 menciones">shock</span>
-      <span class="wc-w wc-b" style="--s:1.65rem" title="26 menciones">activos</span>
-      <span class="wc-w wc-b" style="--s:1.46rem" title="21 menciones">impuestos</span>
-      <span class="wc-w wc-c" style="--s:0.84rem" title="9 menciones">TPM</span>
-      <span class="wc-w wc-c" style="--s:1.19rem" title="15 menciones">alza</span>
-      <span class="wc-w wc-a" style="--s:1.87rem" title="32 menciones">fiscal</span>
-      <span class="wc-w wc-c" style="--s:1.19rem" title="15 menciones">estructural</span>
-      <span class="wc-w wc-c" style="--s:1.14rem" title="14 menciones">expectativas</span>
-      <span class="wc-w wc-c" style="--s:1.09rem" title="13 menciones">inteligencia artificial</span>
-      <span class="wc-w wc-b" style="--s:1.29rem" title="17 menciones">oro</span>
-      <span class="wc-w wc-a" style="--s:2.44rem" title="50 menciones">precios</span>
-      <span class="wc-w wc-a" style="--s:1.76rem" title="29 menciones">oferta</span>
-      <span class="wc-w wc-c" style="--s:1.04rem" title="12 menciones">IPO</span>
-      <span class="wc-w wc-c" style="--s:1.24rem" title="16 menciones">vivienda</span>
-      <span class="wc-w wc-a" style="--s:2.13rem" title="40 menciones">ETF</span>
-      <span class="wc-w wc-c" style="--s:1.19rem" title="15 menciones">ajuste</span>
-      <span class="wc-w wc-c" style="--s:1.19rem" title="15 menciones">impacto</span>
-      <span class="wc-w wc-c" style="--s:1.14rem" title="14 menciones">global</span>
-      <span class="wc-w wc-b" style="--s:1.29rem" title="17 menciones">tasas</span>
-      <span class="wc-w wc-a" style="--s:1.9rem" title="33 menciones">mercado</span>
-      <span class="wc-w wc-b" style="--s:1.54rem" title="23 menciones">crecimiento</span>
-      <span class="wc-w wc-b" style="--s:1.42rem" title="20 menciones">demanda</span>
-      <span class="wc-w wc-b" style="--s:1.69rem" title="27 menciones">cobre</span>
-      <span class="wc-w wc-c" style="--s:0.84rem" title="9 menciones">valoración</span>
-      <span class="wc-w wc-c" style="--s:1.04rem" title="12 menciones">ingresos</span>
-      <span class="wc-w wc-c" style="--s:0.98rem" title="11 menciones">política monetaria</span>
-      <span class="wc-w wc-b" style="--s:1.5rem" title="22 menciones">dólar</span>
-      <span class="wc-w wc-b" style="--s:1.46rem" title="21 menciones">capital</span>
-      <span class="wc-w wc-c" style="--s:1.04rem" title="12 menciones">tipo de cambio</span>
-      <span class="wc-w wc-c" style="--s:0.72rem" title="8 menciones">centros de datos</span>
-      <span class="wc-w wc-c" style="--s:1.04rem" title="12 menciones">riesgo</span>
-      <span class="wc-w wc-c" style="--s:0.98rem" title="11 menciones">petróleo</span>
-      <span class="wc-w wc-c" style="--s:1.09rem" title="13 menciones">deuda</span>
-      </div>
-      <p class="wc-foot">Términos más frecuentes en los informes publicados a la fecha.</p>
-    </div>
-
-    <a href="https://club-de-finanzas-fen.github.io/" target="_blank" rel="noopener" class="research-cta fade-in">
-      <span class="research-cta-text">
-        <strong>Ver todos los informes</strong>
-        <span>Repositorio de research del Club de Finanzas FEN UChile</span>
-      </span>
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-    </a>
-  </section>
-
-  <footer>
-    <p>© 2026 · Joaquín Martínez</p>
-  </footer>
+<section id="informes">
+  <h2>Informes</h2>
+  <div>
+    <p>Como associate del Club de Finanzas de la Universidad de Chile armé desde cero el equipo de estudios. Como Head of Research, rol que dejé en septiembre de 2026, dirigí la publicación de informes de coyuntura macroeconómica y de mercados, disponibles en el <a href="https://club-de-finanzas-fen.github.io/">repositorio del Club</a>.</p>
+  </div>
+</section>
 
 </main>
 
-<script>
-  // Mobile menu
-  const menuToggle = document.getElementById('menuToggle');
-  const sidebar = document.getElementById('sidebar');
-  const overlay = document.getElementById('overlay');
+<footer>
+  <p>© 2026 Joaquín Martínez</p>
+</footer>
 
-  function setMenu(open) {
-    menuToggle.classList.toggle('active', open);
-    sidebar.classList.toggle('active', open);
-    overlay.classList.toggle('active', open);
-    menuToggle.setAttribute('aria-expanded', open);
-    menuToggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
-  }
-
-  menuToggle.addEventListener('click', () => setMenu(!sidebar.classList.contains('active')));
-  overlay.addEventListener('click', () => setMenu(false));
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
-  document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => setMenu(false));
-  });
-
-  // Scroll progress bar
-  const progressBar = document.getElementById('progressBar');
-
-  // Active nav link on scroll
-  const sections = document.querySelectorAll('section[id]');
-  const navLinks = document.querySelectorAll('.nav-links a');
-
-  window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY;
-    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-    progressBar.style.width = (docHeight > 0 ? (scrollTop / docHeight) * 100 : 0) + '%';
-
-    let current = '';
-    sections.forEach(section => {
-      if (scrollTop >= section.offsetTop - 100) current = section.id;
-    });
-    // al llegar al fondo, la última sección puede ser más corta que la pantalla
-    if (scrollTop >= docHeight - 2) current = sections[sections.length - 1].id;
-
-    navLinks.forEach(link => {
-      link.classList.remove('active');
-      if (link.getAttribute('href') === '#' + current) {
-        link.classList.add('active');
-      }
-    });
-  });
-
-  // Fade in on scroll
-  const fadeObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
-
-  document.querySelectorAll('.fade-in').forEach(el => fadeObserver.observe(el));
-</script>
-
+</div>
 </body>
 </html>
